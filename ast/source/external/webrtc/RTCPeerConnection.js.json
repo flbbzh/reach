@@ -1,0 +1,59 @@
+{
+  "type": "Program",
+  "body": [],
+  "sourceType": "module",
+  "range": [
+    94,
+    94
+  ],
+  "loc": {
+    "start": {
+      "line": 3,
+      "column": 3
+    },
+    "end": {
+      "line": 3,
+      "column": 3
+    }
+  },
+  "leadingComments": [
+    {
+      "type": "Block",
+      "value": "*\n * @external {RTCPeerConnection} https://w3c.github.io/webrtc-pc/#interface-definition\n ",
+      "range": [
+        0,
+        94
+      ],
+      "loc": {
+        "start": {
+          "line": 1,
+          "column": 0
+        },
+        "end": {
+          "line": 3,
+          "column": 3
+        }
+      }
+    }
+  ],
+  "comments": [
+    {
+      "type": "Block",
+      "value": "*\n * @external {RTCPeerConnection} https://w3c.github.io/webrtc-pc/#interface-definition\n ",
+      "range": [
+        0,
+        94
+      ],
+      "loc": {
+        "start": {
+          "line": 1,
+          "column": 0
+        },
+        "end": {
+          "line": 3,
+          "column": 3
+        }
+      }
+    }
+  ]
+}

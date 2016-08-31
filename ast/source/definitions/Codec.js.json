@@ -1,0 +1,1121 @@
+{
+  "type": "Program",
+  "body": [
+    {
+      "type": "ExportNamedDeclaration",
+      "declaration": {
+        "type": "VariableDeclaration",
+        "declarations": [
+          {
+            "type": "VariableDeclarator",
+            "id": {
+              "type": "Identifier",
+              "name": "video",
+              "range": [
+                398,
+                403
+              ],
+              "loc": {
+                "start": {
+                  "line": 10,
+                  "column": 13
+                },
+                "end": {
+                  "line": 10,
+                  "column": 18
+                }
+              }
+            },
+            "init": {
+              "type": "ObjectExpression",
+              "properties": [
+                {
+                  "type": "Property",
+                  "key": {
+                    "type": "Literal",
+                    "value": "VP8",
+                    "raw": "'VP8'",
+                    "range": [
+                      409,
+                      414
+                    ],
+                    "loc": {
+                      "start": {
+                        "line": 11,
+                        "column": 1
+                      },
+                      "end": {
+                        "line": 11,
+                        "column": 6
+                      }
+                    }
+                  },
+                  "value": {
+                    "type": "Literal",
+                    "value": {},
+                    "raw": "/^vp8/i",
+                    "regex": {
+                      "pattern": "^vp8",
+                      "flags": "i"
+                    },
+                    "range": [
+                      416,
+                      423
+                    ],
+                    "loc": {
+                      "start": {
+                        "line": 11,
+                        "column": 8
+                      },
+                      "end": {
+                        "line": 11,
+                        "column": 15
+                      }
+                    }
+                  },
+                  "kind": "init",
+                  "method": false,
+                  "shorthand": false,
+                  "computed": false,
+                  "range": [
+                    409,
+                    423
+                  ],
+                  "loc": {
+                    "start": {
+                      "line": 11,
+                      "column": 1
+                    },
+                    "end": {
+                      "line": 11,
+                      "column": 15
+                    }
+                  }
+                },
+                {
+                  "type": "Property",
+                  "key": {
+                    "type": "Literal",
+                    "value": "VP9",
+                    "raw": "'VP9'",
+                    "range": [
+                      426,
+                      431
+                    ],
+                    "loc": {
+                      "start": {
+                        "line": 12,
+                        "column": 1
+                      },
+                      "end": {
+                        "line": 12,
+                        "column": 6
+                      }
+                    }
+                  },
+                  "value": {
+                    "type": "Literal",
+                    "value": {},
+                    "raw": "/^vp9/i",
+                    "regex": {
+                      "pattern": "^vp9",
+                      "flags": "i"
+                    },
+                    "range": [
+                      433,
+                      440
+                    ],
+                    "loc": {
+                      "start": {
+                        "line": 12,
+                        "column": 8
+                      },
+                      "end": {
+                        "line": 12,
+                        "column": 15
+                      }
+                    }
+                  },
+                  "kind": "init",
+                  "method": false,
+                  "shorthand": false,
+                  "computed": false,
+                  "range": [
+                    426,
+                    440
+                  ],
+                  "loc": {
+                    "start": {
+                      "line": 12,
+                      "column": 1
+                    },
+                    "end": {
+                      "line": 12,
+                      "column": 15
+                    }
+                  }
+                },
+                {
+                  "type": "Property",
+                  "key": {
+                    "type": "Literal",
+                    "value": "VP10",
+                    "raw": "'VP10'",
+                    "range": [
+                      443,
+                      449
+                    ],
+                    "loc": {
+                      "start": {
+                        "line": 13,
+                        "column": 1
+                      },
+                      "end": {
+                        "line": 13,
+                        "column": 7
+                      }
+                    }
+                  },
+                  "value": {
+                    "type": "Literal",
+                    "value": {},
+                    "raw": "/^vp10/i",
+                    "regex": {
+                      "pattern": "^vp10",
+                      "flags": "i"
+                    },
+                    "range": [
+                      451,
+                      459
+                    ],
+                    "loc": {
+                      "start": {
+                        "line": 13,
+                        "column": 9
+                      },
+                      "end": {
+                        "line": 13,
+                        "column": 17
+                      }
+                    }
+                  },
+                  "kind": "init",
+                  "method": false,
+                  "shorthand": false,
+                  "computed": false,
+                  "range": [
+                    443,
+                    459
+                  ],
+                  "loc": {
+                    "start": {
+                      "line": 13,
+                      "column": 1
+                    },
+                    "end": {
+                      "line": 13,
+                      "column": 17
+                    }
+                  }
+                },
+                {
+                  "type": "Property",
+                  "key": {
+                    "type": "Literal",
+                    "value": "H264",
+                    "raw": "'H264'",
+                    "range": [
+                      462,
+                      468
+                    ],
+                    "loc": {
+                      "start": {
+                        "line": 14,
+                        "column": 1
+                      },
+                      "end": {
+                        "line": 14,
+                        "column": 7
+                      }
+                    }
+                  },
+                  "value": {
+                    "type": "Literal",
+                    "value": {},
+                    "raw": "/^h264/i",
+                    "regex": {
+                      "pattern": "^h264",
+                      "flags": "i"
+                    },
+                    "range": [
+                      470,
+                      478
+                    ],
+                    "loc": {
+                      "start": {
+                        "line": 14,
+                        "column": 9
+                      },
+                      "end": {
+                        "line": 14,
+                        "column": 17
+                      }
+                    }
+                  },
+                  "kind": "init",
+                  "method": false,
+                  "shorthand": false,
+                  "computed": false,
+                  "range": [
+                    462,
+                    478
+                  ],
+                  "loc": {
+                    "start": {
+                      "line": 14,
+                      "column": 1
+                    },
+                    "end": {
+                      "line": 14,
+                      "column": 17
+                    }
+                  }
+                },
+                {
+                  "type": "Property",
+                  "key": {
+                    "type": "Literal",
+                    "value": "H265",
+                    "raw": "'H265'",
+                    "range": [
+                      481,
+                      487
+                    ],
+                    "loc": {
+                      "start": {
+                        "line": 15,
+                        "column": 1
+                      },
+                      "end": {
+                        "line": 15,
+                        "column": 7
+                      }
+                    }
+                  },
+                  "value": {
+                    "type": "Literal",
+                    "value": {},
+                    "raw": "/^h265/i",
+                    "regex": {
+                      "pattern": "^h265",
+                      "flags": "i"
+                    },
+                    "range": [
+                      489,
+                      497
+                    ],
+                    "loc": {
+                      "start": {
+                        "line": 15,
+                        "column": 9
+                      },
+                      "end": {
+                        "line": 15,
+                        "column": 17
+                      }
+                    }
+                  },
+                  "kind": "init",
+                  "method": false,
+                  "shorthand": false,
+                  "computed": false,
+                  "range": [
+                    481,
+                    497
+                  ],
+                  "loc": {
+                    "start": {
+                      "line": 15,
+                      "column": 1
+                    },
+                    "end": {
+                      "line": 15,
+                      "column": 17
+                    }
+                  }
+                }
+              ],
+              "range": [
+                406,
+                499
+              ],
+              "loc": {
+                "start": {
+                  "line": 10,
+                  "column": 21
+                },
+                "end": {
+                  "line": 16,
+                  "column": 1
+                }
+              }
+            },
+            "range": [
+              398,
+              499
+            ],
+            "loc": {
+              "start": {
+                "line": 10,
+                "column": 13
+              },
+              "end": {
+                "line": 16,
+                "column": 1
+              }
+            }
+          }
+        ],
+        "kind": "const",
+        "range": [
+          392,
+          500
+        ],
+        "loc": {
+          "start": {
+            "line": 10,
+            "column": 7
+          },
+          "end": {
+            "line": 16,
+            "column": 2
+          }
+        },
+        "leadingComments": [
+          {
+            "type": "Block",
+            "value": "*\n * Video codec presets to use for\n * @typedef {Object} Codec/video\n * @property {RegExp} VP8 VP8 is the only video codec officially supported by WebRTC\n * @property {RegExp} VP9 VP8's successor.\n * @property {RegExp} H264 MPEG-4 part 10. Only Firefox.\n * @property {RegExp} VP10 Suited for UHD video. No support yet\n * @property {RegExp} H265 H.264's successor. No support yet\n ",
+            "range": [
+              0,
+              384
+            ],
+            "loc": {
+              "start": {
+                "line": 1,
+                "column": 0
+              },
+              "end": {
+                "line": 9,
+                "column": 3
+              }
+            }
+          }
+        ],
+        "trailingComments": [
+          {
+            "type": "Block",
+            "value": "*\n * Audio codec presets to use for\n * @typedef {Object} Codec/audio\n * @property {RegExp} OPUS Opus audio codec {@link http://opus-codec.org/}. Only choice for high-quality audio.\n * @property {RegExp} G722 G.722 audio codec\n * @property {RegExp} G711 G.711 audio codec\n * @property {RegExp} ISAC iSAC audio codec. Good for voice data, but not suitable for high-quality audio streams.\n * @property {RegExp} ISAC_16 iSAC audio codec (16kHz)\n * @property {RegExp} ISAC_32 iSAC audio codec (32kHz)\n * @property {RegExp} ILBC iLBC audio codec. For bad channels & low bandwidth.\n * @property {RegExp} ILBC iLBC audio codec. For bad channels & low bandwidth.\n ",
+            "range": [
+              502,
+              1161
+            ],
+            "loc": {
+              "start": {
+                "line": 18,
+                "column": 0
+              },
+              "end": {
+                "line": 29,
+                "column": 3
+              }
+            }
+          }
+        ]
+      },
+      "specifiers": [],
+      "source": null,
+      "range": [
+        385,
+        500
+      ],
+      "loc": {
+        "start": {
+          "line": 10,
+          "column": 0
+        },
+        "end": {
+          "line": 16,
+          "column": 2
+        }
+      },
+      "leadingComments": [
+        {
+          "type": "Block",
+          "value": "*\n * Video codec presets to use for\n * @typedef {Object} Codec/video\n * @property {RegExp} VP8 VP8 is the only video codec officially supported by WebRTC\n * @property {RegExp} VP9 VP8's successor.\n * @property {RegExp} H264 MPEG-4 part 10. Only Firefox.\n * @property {RegExp} VP10 Suited for UHD video. No support yet\n * @property {RegExp} H265 H.264's successor. No support yet\n ",
+          "range": [
+            0,
+            384
+          ],
+          "loc": {
+            "start": {
+              "line": 1,
+              "column": 0
+            },
+            "end": {
+              "line": 9,
+              "column": 3
+            }
+          }
+        }
+      ],
+      "trailingComments": [
+        {
+          "type": "Block",
+          "value": "*\n * Audio codec presets to use for\n * @typedef {Object} Codec/audio\n * @property {RegExp} OPUS Opus audio codec {@link http://opus-codec.org/}. Only choice for high-quality audio.\n * @property {RegExp} G722 G.722 audio codec\n * @property {RegExp} G711 G.711 audio codec\n * @property {RegExp} ISAC iSAC audio codec. Good for voice data, but not suitable for high-quality audio streams.\n * @property {RegExp} ISAC_16 iSAC audio codec (16kHz)\n * @property {RegExp} ISAC_32 iSAC audio codec (32kHz)\n * @property {RegExp} ILBC iLBC audio codec. For bad channels & low bandwidth.\n * @property {RegExp} ILBC iLBC audio codec. For bad channels & low bandwidth.\n ",
+          "range": [
+            502,
+            1161
+          ],
+          "loc": {
+            "start": {
+              "line": 18,
+              "column": 0
+            },
+            "end": {
+              "line": 29,
+              "column": 3
+            }
+          }
+        }
+      ]
+    },
+    {
+      "type": "ExportNamedDeclaration",
+      "declaration": {
+        "type": "VariableDeclaration",
+        "declarations": [
+          {
+            "type": "VariableDeclarator",
+            "id": {
+              "type": "Identifier",
+              "name": "audio",
+              "range": [
+                1175,
+                1180
+              ],
+              "loc": {
+                "start": {
+                  "line": 30,
+                  "column": 13
+                },
+                "end": {
+                  "line": 30,
+                  "column": 18
+                }
+              }
+            },
+            "init": {
+              "type": "ObjectExpression",
+              "properties": [
+                {
+                  "type": "Property",
+                  "key": {
+                    "type": "Literal",
+                    "value": "OPUS",
+                    "raw": "'OPUS'",
+                    "range": [
+                      1186,
+                      1192
+                    ],
+                    "loc": {
+                      "start": {
+                        "line": 31,
+                        "column": 1
+                      },
+                      "end": {
+                        "line": 31,
+                        "column": 7
+                      }
+                    }
+                  },
+                  "value": {
+                    "type": "Literal",
+                    "value": {},
+                    "raw": "/^opus/i",
+                    "regex": {
+                      "pattern": "^opus",
+                      "flags": "i"
+                    },
+                    "range": [
+                      1194,
+                      1202
+                    ],
+                    "loc": {
+                      "start": {
+                        "line": 31,
+                        "column": 9
+                      },
+                      "end": {
+                        "line": 31,
+                        "column": 17
+                      }
+                    }
+                  },
+                  "kind": "init",
+                  "method": false,
+                  "shorthand": false,
+                  "computed": false,
+                  "range": [
+                    1186,
+                    1202
+                  ],
+                  "loc": {
+                    "start": {
+                      "line": 31,
+                      "column": 1
+                    },
+                    "end": {
+                      "line": 31,
+                      "column": 17
+                    }
+                  }
+                },
+                {
+                  "type": "Property",
+                  "key": {
+                    "type": "Literal",
+                    "value": "G722",
+                    "raw": "'G722'",
+                    "range": [
+                      1205,
+                      1211
+                    ],
+                    "loc": {
+                      "start": {
+                        "line": 32,
+                        "column": 1
+                      },
+                      "end": {
+                        "line": 32,
+                        "column": 7
+                      }
+                    }
+                  },
+                  "value": {
+                    "type": "Literal",
+                    "value": {},
+                    "raw": "/^g722/i",
+                    "regex": {
+                      "pattern": "^g722",
+                      "flags": "i"
+                    },
+                    "range": [
+                      1213,
+                      1221
+                    ],
+                    "loc": {
+                      "start": {
+                        "line": 32,
+                        "column": 9
+                      },
+                      "end": {
+                        "line": 32,
+                        "column": 17
+                      }
+                    }
+                  },
+                  "kind": "init",
+                  "method": false,
+                  "shorthand": false,
+                  "computed": false,
+                  "range": [
+                    1205,
+                    1221
+                  ],
+                  "loc": {
+                    "start": {
+                      "line": 32,
+                      "column": 1
+                    },
+                    "end": {
+                      "line": 32,
+                      "column": 17
+                    }
+                  }
+                },
+                {
+                  "type": "Property",
+                  "key": {
+                    "type": "Literal",
+                    "value": "G711",
+                    "raw": "'G711'",
+                    "range": [
+                      1224,
+                      1230
+                    ],
+                    "loc": {
+                      "start": {
+                        "line": 33,
+                        "column": 1
+                      },
+                      "end": {
+                        "line": 33,
+                        "column": 7
+                      }
+                    }
+                  },
+                  "value": {
+                    "type": "Literal",
+                    "value": {},
+                    "raw": "/^g711/i",
+                    "regex": {
+                      "pattern": "^g711",
+                      "flags": "i"
+                    },
+                    "range": [
+                      1232,
+                      1240
+                    ],
+                    "loc": {
+                      "start": {
+                        "line": 33,
+                        "column": 9
+                      },
+                      "end": {
+                        "line": 33,
+                        "column": 17
+                      }
+                    }
+                  },
+                  "kind": "init",
+                  "method": false,
+                  "shorthand": false,
+                  "computed": false,
+                  "range": [
+                    1224,
+                    1240
+                  ],
+                  "loc": {
+                    "start": {
+                      "line": 33,
+                      "column": 1
+                    },
+                    "end": {
+                      "line": 33,
+                      "column": 17
+                    }
+                  }
+                },
+                {
+                  "type": "Property",
+                  "key": {
+                    "type": "Literal",
+                    "value": "ISAC",
+                    "raw": "'ISAC'",
+                    "range": [
+                      1243,
+                      1249
+                    ],
+                    "loc": {
+                      "start": {
+                        "line": 34,
+                        "column": 1
+                      },
+                      "end": {
+                        "line": 34,
+                        "column": 7
+                      }
+                    }
+                  },
+                  "value": {
+                    "type": "Literal",
+                    "value": {},
+                    "raw": "/^isac/i",
+                    "regex": {
+                      "pattern": "^isac",
+                      "flags": "i"
+                    },
+                    "range": [
+                      1251,
+                      1259
+                    ],
+                    "loc": {
+                      "start": {
+                        "line": 34,
+                        "column": 9
+                      },
+                      "end": {
+                        "line": 34,
+                        "column": 17
+                      }
+                    }
+                  },
+                  "kind": "init",
+                  "method": false,
+                  "shorthand": false,
+                  "computed": false,
+                  "range": [
+                    1243,
+                    1259
+                  ],
+                  "loc": {
+                    "start": {
+                      "line": 34,
+                      "column": 1
+                    },
+                    "end": {
+                      "line": 34,
+                      "column": 17
+                    }
+                  }
+                },
+                {
+                  "type": "Property",
+                  "key": {
+                    "type": "Literal",
+                    "value": "ISAC_16",
+                    "raw": "'ISAC_16'",
+                    "range": [
+                      1262,
+                      1271
+                    ],
+                    "loc": {
+                      "start": {
+                        "line": 35,
+                        "column": 1
+                      },
+                      "end": {
+                        "line": 35,
+                        "column": 10
+                      }
+                    }
+                  },
+                  "value": {
+                    "type": "Literal",
+                    "value": {},
+                    "raw": "/^isac\\/16000/i",
+                    "regex": {
+                      "pattern": "^isac\\/16000",
+                      "flags": "i"
+                    },
+                    "range": [
+                      1273,
+                      1288
+                    ],
+                    "loc": {
+                      "start": {
+                        "line": 35,
+                        "column": 12
+                      },
+                      "end": {
+                        "line": 35,
+                        "column": 27
+                      }
+                    }
+                  },
+                  "kind": "init",
+                  "method": false,
+                  "shorthand": false,
+                  "computed": false,
+                  "range": [
+                    1262,
+                    1288
+                  ],
+                  "loc": {
+                    "start": {
+                      "line": 35,
+                      "column": 1
+                    },
+                    "end": {
+                      "line": 35,
+                      "column": 27
+                    }
+                  }
+                },
+                {
+                  "type": "Property",
+                  "key": {
+                    "type": "Literal",
+                    "value": "ISAC_32",
+                    "raw": "'ISAC_32'",
+                    "range": [
+                      1291,
+                      1300
+                    ],
+                    "loc": {
+                      "start": {
+                        "line": 36,
+                        "column": 1
+                      },
+                      "end": {
+                        "line": 36,
+                        "column": 10
+                      }
+                    }
+                  },
+                  "value": {
+                    "type": "Literal",
+                    "value": {},
+                    "raw": "/^isac\\/32000/i",
+                    "regex": {
+                      "pattern": "^isac\\/32000",
+                      "flags": "i"
+                    },
+                    "range": [
+                      1302,
+                      1317
+                    ],
+                    "loc": {
+                      "start": {
+                        "line": 36,
+                        "column": 12
+                      },
+                      "end": {
+                        "line": 36,
+                        "column": 27
+                      }
+                    }
+                  },
+                  "kind": "init",
+                  "method": false,
+                  "shorthand": false,
+                  "computed": false,
+                  "range": [
+                    1291,
+                    1317
+                  ],
+                  "loc": {
+                    "start": {
+                      "line": 36,
+                      "column": 1
+                    },
+                    "end": {
+                      "line": 36,
+                      "column": 27
+                    }
+                  }
+                },
+                {
+                  "type": "Property",
+                  "key": {
+                    "type": "Literal",
+                    "value": "LSAC",
+                    "raw": "'LSAC'",
+                    "range": [
+                      1320,
+                      1326
+                    ],
+                    "loc": {
+                      "start": {
+                        "line": 37,
+                        "column": 1
+                      },
+                      "end": {
+                        "line": 37,
+                        "column": 7
+                      }
+                    }
+                  },
+                  "value": {
+                    "type": "Literal",
+                    "value": {},
+                    "raw": "/^lsac/i",
+                    "regex": {
+                      "pattern": "^lsac",
+                      "flags": "i"
+                    },
+                    "range": [
+                      1328,
+                      1336
+                    ],
+                    "loc": {
+                      "start": {
+                        "line": 37,
+                        "column": 9
+                      },
+                      "end": {
+                        "line": 37,
+                        "column": 17
+                      }
+                    }
+                  },
+                  "kind": "init",
+                  "method": false,
+                  "shorthand": false,
+                  "computed": false,
+                  "range": [
+                    1320,
+                    1336
+                  ],
+                  "loc": {
+                    "start": {
+                      "line": 37,
+                      "column": 1
+                    },
+                    "end": {
+                      "line": 37,
+                      "column": 17
+                    }
+                  }
+                }
+              ],
+              "range": [
+                1183,
+                1338
+              ],
+              "loc": {
+                "start": {
+                  "line": 30,
+                  "column": 21
+                },
+                "end": {
+                  "line": 38,
+                  "column": 1
+                }
+              }
+            },
+            "range": [
+              1175,
+              1338
+            ],
+            "loc": {
+              "start": {
+                "line": 30,
+                "column": 13
+              },
+              "end": {
+                "line": 38,
+                "column": 1
+              }
+            }
+          }
+        ],
+        "kind": "const",
+        "range": [
+          1169,
+          1339
+        ],
+        "loc": {
+          "start": {
+            "line": 30,
+            "column": 7
+          },
+          "end": {
+            "line": 38,
+            "column": 2
+          }
+        },
+        "leadingComments": [
+          {
+            "type": "Block",
+            "value": "*\n * Audio codec presets to use for\n * @typedef {Object} Codec/audio\n * @property {RegExp} OPUS Opus audio codec {@link http://opus-codec.org/}. Only choice for high-quality audio.\n * @property {RegExp} G722 G.722 audio codec\n * @property {RegExp} G711 G.711 audio codec\n * @property {RegExp} ISAC iSAC audio codec. Good for voice data, but not suitable for high-quality audio streams.\n * @property {RegExp} ISAC_16 iSAC audio codec (16kHz)\n * @property {RegExp} ISAC_32 iSAC audio codec (32kHz)\n * @property {RegExp} ILBC iLBC audio codec. For bad channels & low bandwidth.\n * @property {RegExp} ILBC iLBC audio codec. For bad channels & low bandwidth.\n ",
+            "range": [
+              502,
+              1161
+            ],
+            "loc": {
+              "start": {
+                "line": 18,
+                "column": 0
+              },
+              "end": {
+                "line": 29,
+                "column": 3
+              }
+            }
+          }
+        ],
+        "trailingComments": []
+      },
+      "specifiers": [],
+      "source": null,
+      "range": [
+        1162,
+        1339
+      ],
+      "loc": {
+        "start": {
+          "line": 30,
+          "column": 0
+        },
+        "end": {
+          "line": 38,
+          "column": 2
+        }
+      },
+      "leadingComments": [
+        {
+          "type": "Block",
+          "value": "*\n * Audio codec presets to use for\n * @typedef {Object} Codec/audio\n * @property {RegExp} OPUS Opus audio codec {@link http://opus-codec.org/}. Only choice for high-quality audio.\n * @property {RegExp} G722 G.722 audio codec\n * @property {RegExp} G711 G.711 audio codec\n * @property {RegExp} ISAC iSAC audio codec. Good for voice data, but not suitable for high-quality audio streams.\n * @property {RegExp} ISAC_16 iSAC audio codec (16kHz)\n * @property {RegExp} ISAC_32 iSAC audio codec (32kHz)\n * @property {RegExp} ILBC iLBC audio codec. For bad channels & low bandwidth.\n * @property {RegExp} ILBC iLBC audio codec. For bad channels & low bandwidth.\n ",
+          "range": [
+            502,
+            1161
+          ],
+          "loc": {
+            "start": {
+              "line": 18,
+              "column": 0
+            },
+            "end": {
+              "line": 29,
+              "column": 3
+            }
+          }
+        }
+      ]
+    }
+  ],
+  "sourceType": "module",
+  "range": [
+    385,
+    1339
+  ],
+  "loc": {
+    "start": {
+      "line": 10,
+      "column": 0
+    },
+    "end": {
+      "line": 38,
+      "column": 2
+    }
+  },
+  "comments": [
+    {
+      "type": "Block",
+      "value": "*\n * Video codec presets to use for\n * @typedef {Object} Codec/video\n * @property {RegExp} VP8 VP8 is the only video codec officially supported by WebRTC\n * @property {RegExp} VP9 VP8's successor.\n * @property {RegExp} H264 MPEG-4 part 10. Only Firefox.\n * @property {RegExp} VP10 Suited for UHD video. No support yet\n * @property {RegExp} H265 H.264's successor. No support yet\n ",
+      "range": [
+        0,
+        384
+      ],
+      "loc": {
+        "start": {
+          "line": 1,
+          "column": 0
+        },
+        "end": {
+          "line": 9,
+          "column": 3
+        }
+      }
+    },
+    {
+      "type": "Block",
+      "value": "*\n * Audio codec presets to use for\n * @typedef {Object} Codec/audio\n * @property {RegExp} OPUS Opus audio codec {@link http://opus-codec.org/}. Only choice for high-quality audio.\n * @property {RegExp} G722 G.722 audio codec\n * @property {RegExp} G711 G.711 audio codec\n * @property {RegExp} ISAC iSAC audio codec. Good for voice data, but not suitable for high-quality audio streams.\n * @property {RegExp} ISAC_16 iSAC audio codec (16kHz)\n * @property {RegExp} ISAC_32 iSAC audio codec (32kHz)\n * @property {RegExp} ILBC iLBC audio codec. For bad channels & low bandwidth.\n * @property {RegExp} ILBC iLBC audio codec. For bad channels & low bandwidth.\n ",
+      "range": [
+        502,
+        1161
+      ],
+      "loc": {
+        "start": {
+          "line": 18,
+          "column": 0
+        },
+        "end": {
+          "line": 29,
+          "column": 3
+        }
+      }
+    }
+  ]
+}

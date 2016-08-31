@@ -1,0 +1,293 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <base data-ice="baseUrl" href="../">
+  <title data-ice="title">Tutorial</title>
+  <link type="text/css" rel="stylesheet" href="css/style.css">
+  <link type="text/css" rel="stylesheet" href="css/prettify-tomorrow.css">
+  <script src="script/prettify/prettify.js"></script>
+  
+  
+  <script src="script/manual.js"></script>
+</head>
+<body class="layout-container manual-root" data-ice="rootContainer">
+
+<header>
+  <a href="./">Home</a>
+  <a href="./manual/index.html" data-ice="manualHeaderLink">Manual</a>
+  <a href="identifiers.html">Reference</a>
+  <a href="source.html">Source</a>
+  
+  <a data-ice="repoURL" href="https://github.com/webcom-components/reach" class="repo-url-github">Repository</a>
+  <div class="search-box">
+  <span>
+    <img src="./image/search.png">
+    <span class="search-input-edge"></span><input class="search-input"><span class="search-input-edge"></span>
+  </span>
+    <ul class="search-result"></ul>
+  </div>
+</header>
+
+<nav class="navigation" data-ice="nav"><div class="manual-toc-root">
+  
+<div data-ice="manual" data-toc-name="overview">
+    <h1 class="manual-toc-title"><a href="manual/overview.html" data-ice="title">Overview</a></h1>
+    <ul class="manual-toc">
+      
+    <li data-ice="manualNav" class="indent-h1"><span class="manual-dot"></span><a href="manual/overview.html#discover-flexible-datasync" data-ice="link">Discover Flexible DataSync</a></li>
+<li data-ice="manualNav" class="indent-h1"><span class="manual-dot"></span><a href="manual/overview.html#get-started" data-ice="link">Get started</a></li>
+<li data-ice="manualNav" class="indent-h1"><span class="manual-dot"></span><a href="manual/overview.html#live-example" data-ice="link">Live example</a></li>
+</ul>
+  </div>
+<div data-ice="manual" data-toc-name="installation">
+    <h1 class="manual-toc-title"><a href="manual/installation.html" data-ice="title">Installation</a></h1>
+    <ul class="manual-toc">
+      
+    <li data-ice="manualNav" class="indent-h1"><span class="manual-dot"></span><a href="manual/installation.html#from-cdn" data-ice="link">from CDN</a></li>
+<li data-ice="manualNav" class="indent-h1"><span class="manual-dot"></span><a href="manual/installation.html#from-bower-or-npm-" data-ice="link">from bower or npm</a></li>
+</ul>
+  </div>
+<div data-ice="manual" data-toc-name="tutorial">
+    <h1 class="manual-toc-title"><a href="manual/tutorial.html" data-ice="title">Tutorial</a></h1>
+    <ul class="manual-toc">
+      
+    <li data-ice="manualNav" class="indent-h1"><span class="manual-dot"></span><a href="manual/tutorial.html#getting-started" data-ice="link">Getting started</a></li>
+<li data-ice="manualNav" class="indent-h2"><span class="manual-dot"></span><a href="manual/tutorial.html#init-your-namespace" data-ice="link">Init your namespace</a></li>
+<li data-ice="manualNav" class="indent-h2"><span class="manual-dot"></span><a href="manual/tutorial.html#get-the-library" data-ice="link">Get the library</a></li>
+<li data-ice="manualNav" class="indent-h2"><span class="manual-dot"></span><a href="manual/tutorial.html#the-bases" data-ice="link">The bases</a></li>
+<li data-ice="manualNav" class="indent-h3"><span class="manual-dot"></span><a href="manual/tutorial.html#the-reach-object" data-ice="link">The Reach object</a></li>
+<li data-ice="manualNav" class="indent-h3"><span class="manual-dot"></span><a href="manual/tutorial.html#register-a-new-user" data-ice="link">Register a new User</a></li>
+<li data-ice="manualNav" class="indent-h3"><span class="manual-dot"></span><a href="manual/tutorial.html#list-users-amp-rooms" data-ice="link">List Users &amp; Rooms</a></li>
+<li data-ice="manualNav" class="indent-h3"><span class="manual-dot"></span><a href="manual/tutorial.html#create-a-room" data-ice="link">Create a Room</a></li>
+<li data-ice="manualNav" class="indent-h3"><span class="manual-dot"></span><a href="manual/tutorial.html#invite-one-or-more-users" data-ice="link">Invite one or more users</a></li>
+<li data-ice="manualNav" class="indent-h3"><span class="manual-dot"></span><a href="manual/tutorial.html#respond-to-invitations" data-ice="link">Respond to invitations</a></li>
+<li data-ice="manualNav" class="indent-h3"><span class="manual-dot"></span><a href="manual/tutorial.html#share-the-camera" data-ice="link">Share the camera</a></li>
+<li data-ice="manualNav" class="indent-h3"><span class="manual-dot"></span><a href="manual/tutorial.html#listen-to-shared-streams" data-ice="link">Listen to shared streams</a></li>
+<li data-ice="manualNav" class="indent-h1"><span class="manual-dot"></span><a href="manual/tutorial.html#sharing-streams" data-ice="link">Sharing streams</a></li>
+<li data-ice="manualNav" class="indent-h2"><span class="manual-dot"></span><a href="manual/tutorial.html#the-share-method" data-ice="link">The share method</a></li>
+<li data-ice="manualNav" class="indent-h3"><span class="manual-dot"></span><a href="manual/tutorial.html#the-stream-type" data-ice="link">The stream type</a></li>
+<li data-ice="manualNav" class="indent-h3"><span class="manual-dot"></span><a href="manual/tutorial.html#the-media-constraints" data-ice="link">The Media constraints</a></li>
+<li data-ice="manualNav" class="indent-h3"><span class="manual-dot"></span><a href="manual/tutorial.html#the-container-node" data-ice="link">The container node</a></li>
+<li data-ice="manualNav" class="indent-h2"><span class="manual-dot"></span><a href="manual/tutorial.html#switching-the-camera" data-ice="link">Switching the camera</a></li>
+<li data-ice="manualNav" class="indent-h2"><span class="manual-dot"></span><a href="manual/tutorial.html#prefer-codecs" data-ice="link">Prefer Codecs</a></li>
+<li data-ice="manualNav" class="indent-h1"><span class="manual-dot"></span><a href="manual/tutorial.html#the-data-model" data-ice="link">The Data Model</a></li>
+</ul>
+  </div>
+<div data-ice="manual" data-toc-name="configuration">
+    <h1 class="manual-toc-title"><a href="manual/configuration.html" data-ice="title">Configuration</a></h1>
+    <ul class="manual-toc">
+      
+    <li data-ice="manualNav" class="indent-h1"><span class="manual-dot"></span><a href="manual/configuration.html#ice-management" data-ice="link">ICE management</a></li>
+<li data-ice="manualNav" class="indent-h2"><span class="manual-dot"></span><a href="manual/configuration.html#configure-ice-servers-in-app" data-ice="link">Configure ICE servers in app</a></li>
+<li data-ice="manualNav" class="indent-h2"><span class="manual-dot"></span><a href="manual/configuration.html#configure-ice-servers-on-server" data-ice="link">Configure ICE servers on server</a></li>
+<li data-ice="manualNav" class="indent-h2"><span class="manual-dot"></span><a href="manual/configuration.html#limitations" data-ice="link">Limitations</a></li>
+</ul>
+  </div>
+<div data-ice="manual" data-toc-name="example">
+    <h1 class="manual-toc-title"><a href="manual/example.html" data-ice="title">Example</a></h1>
+    <ul class="manual-toc">
+      
+    <li data-ice="manualNav" class="indent-h1"><span class="manual-dot"></span><a href="manual/example.html#visio-sample" data-ice="link">visio-sample</a></li>
+<li data-ice="manualNav" class="indent-h1"><span class="manual-dot"></span><a href="manual/example.html#webirtc" data-ice="link">webirtc</a></li>
+</ul>
+  </div>
+<div data-ice="manual" data-toc-name="reference">
+    <h1 class="manual-toc-title"><a href="identifiers.html" data-ice="title">Reference</a></h1>
+    <ul class="manual-toc">
+      
+    <li data-ice="manualNav" class="indent-h1"><span class="manual-dot"></span><a href="identifiers.html#class" data-ice="link">Class</a></li>
+<li data-ice="manualNav" class="indent-h1"><span class="manual-dot"></span><a href="identifiers.html#typedef" data-ice="link">Typedef</a></li>
+<li data-ice="manualNav" class="indent-h1"><span class="manual-dot"></span><a href="identifiers.html#external" data-ice="link">External</a></li>
+</ul>
+  </div>
+<div data-ice="manual" data-toc-name="faq">
+    <h1 class="manual-toc-title"><a href="manual/faq.html" data-ice="title">FAQ</a></h1>
+    <ul class="manual-toc">
+      
+    <li data-ice="manualNav" class="indent-h1"><span class="manual-dot"></span><a href="manual/faq.html#is-my-browser-supported-" data-ice="link">Is my browser supported ?</a></li>
+<li data-ice="manualNav" class="indent-h1"><span class="manual-dot"></span><a href="manual/faq.html#is-version-2-compatible-with-previous-versions-" data-ice="link">Is version 2+ compatible with previous versions ?</a></li>
+<li data-ice="manualNav" class="indent-h1"><span class="manual-dot"></span><a href="manual/faq.html#what-s-next-" data-ice="link">What&apos;s next ?</a></li>
+<li data-ice="manualNav" class="indent-h1"><span class="manual-dot"></span><a href="manual/faq.html#how-can-i-contribute-" data-ice="link">How Can I Contribute?</a></li>
+<li data-ice="manualNav" class="indent-h2"><span class="manual-dot"></span><a href="manual/faq.html#report-bugs" data-ice="link">Report Bugs</a></li>
+<li data-ice="manualNav" class="indent-h3"><span class="manual-dot"></span><a href="manual/faq.html#before-submitting-a-bug-report" data-ice="link">Before Submitting A Bug Report</a></li>
+<li data-ice="manualNav" class="indent-h3"><span class="manual-dot"></span><a href="manual/faq.html#how-do-i-submit-a-good-bug-report-" data-ice="link">How Do I Submit A (Good) Bug Report?</a></li>
+<li data-ice="manualNav" class="indent-h3"><span class="manual-dot"></span><a href="manual/faq.html#template-for-submitting-bug-reports" data-ice="link">Template For Submitting Bug Reports</a></li>
+<li data-ice="manualNav" class="indent-h2"><span class="manual-dot"></span><a href="manual/faq.html#develop-new-features-fix-bugs" data-ice="link">Develop new features / Fix bugs</a></li>
+<li data-ice="manualNav" class="indent-h3"><span class="manual-dot"></span><a href="manual/faq.html#prepare-your-development-environment" data-ice="link">Prepare your development environment</a></li>
+<li data-ice="manualNav" class="indent-h3"><span class="manual-dot"></span><a href="manual/faq.html#document-your-code" data-ice="link">Document your code</a></li>
+<li data-ice="manualNav" class="indent-h3"><span class="manual-dot"></span><a href="manual/faq.html#test-your-code" data-ice="link">Test your code</a></li>
+<li data-ice="manualNav" class="indent-h3"><span class="manual-dot"></span><a href="manual/faq.html#commit-your-modifications" data-ice="link">Commit your modifications</a></li>
+<li data-ice="manualNav" class="indent-h4"><span class="manual-dot"></span><a href="manual/faq.html#files" data-ice="link">Files</a></li>
+<li data-ice="manualNav" class="indent-h4"><span class="manual-dot"></span><a href="manual/faq.html#messages" data-ice="link">Messages</a></li>
+</ul>
+  </div>
+</div>
+</nav>
+
+<div class="content" data-ice="content"><div class="github-markdown">
+  <div class="manual-breadcrumb-list">
+    <a href="./manual/./index.html">Manual</a>
+    <span>&#xBB;</span>
+    <span data-ice="title">Tutorial</span>
+  </div>
+  <div data-ice="content"><h2 id="getting-started">Getting started</h2>
+<h3 id="init-your-namespace">Init your namespace</h3>
+<ul>
+<li>Go to <a href="https://io.datasync.orange.com/home">Flexible DataSync</a></li>
+<li>Create a new namespace</li>
+<li>Download the security rules from the <a href="https://webcom-components.github.io/reach-schema/draft-00/security/rules.json">reach-schema</a> repo and import them in the <code>security</code> section</li>
+</ul>
+<h3 id="get-the-library">Get the library</h3>
+<p>See <a href="./manual/./installation.html">installation</a> on how to retrieve the Reach library and its dependencies.</p>
+<h3 id="the-bases">The bases</h3>
+<h4 id="the-reach-object">The Reach object</h4>
+<p>The Reach object is your only entry point.</p>
+<pre><code class="lang-javascript"><code class="source-code prettyprint">const myReach = new Reach(&apos;https://io.datasync.orange.com/&lt;your_namespace&gt;&apos;);</code>
+</code></pre>
+<p>See <a href="./manual/./configuration.html">configuration</a> to learn more on the available configuration possibilities.</p>
+<h4 id="register-a-new-user">Register a new User</h4>
+<p>Create a basic registration form with email &amp; password and use its data:</p>
+<pre><code class="lang-javascript"><code class="source-code prettyprint">myReach.register(email, password)
+    .then(user =&gt; {
+        // user is registered &amp; authenticated
+    });</code>
+</code></pre>
+<h4 id="list-users-amp-rooms">List Users &amp; Rooms</h4>
+<p>Once the user is logged in, you can list all registered users and opened rooms:</p>
+<pre><code class="lang-javascript"><code class="source-code prettyprint">// List users
+myReach.users()
+    .then(users =&gt; {
+        // users is the list of registered users excluding the current one
+        // let&apos;s keep only the connected users
+        window.myUsers = users.filter(user =&gt; user.status === &apos;CONNECTED&apos;);
+    });
+// List rooms
+myReach.rooms()
+    .then(rooms =&gt; {
+        // list of opened rooms
+    });</code>
+</code></pre>
+<h4 id="create-a-room">Create a Room</h4>
+<p>All users can create a room.</p>
+<pre><code class="lang-javascript"><code class="source-code prettyprint">myReach.createRoom(&apos;GettingStarted&apos;)
+    .then(room =&gt; {
+        // room is the newly created room
+        window.myRoom = room;
+        // the current user has automatically joined the room
+    });</code>
+</code></pre>
+<h4 id="invite-one-or-more-users">Invite one or more users</h4>
+<p>Let&apos;s assume, you have selected a list of users:</p>
+<pre><code class="lang-javascript"><code class="source-code prettyprint">myRoom.invite(myUsers)
+    .then((room, invites) =&gt; {
+        // An invite has been sent to all users in myUsers
+        // You can listen to invites responses
+        invites.forEach(invite =&gt; {
+            invite.on(&apos;ACCEPTED&apos;, i =&gt; {
+                // Invite has been accepted
+            });
+            invite.on(&apos;REJECTED&apos;, i =&gt; {
+                // Invite has been accepted
+            });
+        });
+    });</code>
+</code></pre>
+<h4 id="respond-to-invitations">Respond to invitations</h4>
+<p>First we need to listen to incoming invites:</p>
+<pre><code class="lang-javascript"><code class="source-code prettyprint">myReach.on(Reach.events.reach.INVITE_ADDED, invite =&gt; {
+    // New invite received, let&apos;s accept it
+    invite.accept()
+        .then(d =&gt; {
+            // Join the room
+            window.hisRoom = d.room;
+            return d.room.join();
+        });
+});</code>
+</code></pre>
+<h4 id="share-the-camera">Share the camera</h4>
+<p>Once connected to the room, a user can share a media stream with the other participants of the room.
+Only the room participants will be able to view that stream.</p>
+<pre><code class="lang-javascript"><code class="source-code prettyprint">myRoom.share(Reach.types.AUDIO_VIDEO, localVideoContainerNode, Reach.media.constraint(&apos;HD&apos;))
+    .then(localStream =&gt; {
+        // The local Stream has been initiated, meaning `getUserMedia` has been called and that the video stream is displayed within
+        // the `localVideoContainerNode`
+    });</code>
+</code></pre>
+<p>See <a href="">stream sharing</a> to get more details.</p>
+<h4 id="listen-to-shared-streams">Listen to shared streams</h4>
+<p>Listen to published stream right after joining the room so you won&apos;t miss any shared stream:</p>
+<pre><code class="lang-javascript"><code class="source-code prettyprint">hisRoom.on(Reach.event.room.STREAM_PUBLISHED, remoteStream =&gt; {
+    window.hisStream = remoteStream;
+    remoteStream.subscribe(remoteVideoContainerNode)
+        .then(() =&gt; {
+            // Remote stream is subscribed and the video should appear in the `remoteVideoContainerNode` when WebRTC peer connection is established
+        });
+});</code>
+</code></pre>
+<h2 id="sharing-streams">Sharing streams</h2>
+<p>Stream can only be shared within a Room using the <a href="./manual/../class/src/core/Room.js~Room.html#instance-method-share">share</a> method.</p>
+<h3 id="the-share-method">The <code>share</code> method</h3>
+<p>The <a href="./manual/../class/src/core/Room.js~Room.html#instance-method-share">share</a> method can take up to 3 arguments.</p>
+<h4 id="the-stream-type">The stream type</h4>
+<p>Can be <code>AUDIO</code>, <code>VIDEO</code>, <code>AUDIO_VIDEO</code> or any of the stream type defined <a href="./manual/../typedef/index.html#static-typedef-StreamTypes">here</a></p>
+<h4 id="the-media-constraints">The Media constraints</h4>
+<p>The media constraints can be defined when calling <a href="./manual/../class/src/core/Room.js~Room.html#instance-method-share">share</a>:</p>
+<pre><code class="lang-javascript"><code class="source-code prettyprint">room.share(Reach.types.AUDIO_VIDEO, {audio: true, video: {width: 1080}});</code>
+</code></pre>
+<p>or on init: </p>
+<pre><code class="lang-javascript"><code class="source-code prettyprint">const myReach = new Reach(&apos;https://io.datasync.orange.com/&lt;your_namespace&gt;&apos;, {
+    constraints: {audio: true, video: {width: 1080}}
+});</code>
+</code></pre>
+<p>A media constraints helper is exposed as a static member of Reach. It will return a well formatted constraints object:</p>
+<pre><code><code class="source-code prettyprint">// Default constraints
+console.log(Reach.media.constraints());
+// Will output {&quot;video&quot;:{&quot;width&quot;:{&quot;min&quot;:720,&quot;ideal&quot;:1280,&quot;max&quot;:1920},&quot;height&quot;:{&quot;min&quot;:576,&quot;ideal&quot;:720,&quot;max&quot;:1080}},&quot;audio&quot;:true}
+
+// SD preset
+console.log(Reach.media.constraints(&apos;SD&apos;));
+// Will output {&quot;video&quot;:{&quot;width&quot;:{&quot;min&quot;:640,&quot;ideal&quot;:720,&quot;max&quot;:1280},&quot;height&quot;:{&quot;min&quot;:480,&quot;ideal&quot;:576,&quot;max&quot;:720}},&quot;audio&quot;:true}</code>
+</code></pre><h4 id="the-container-node">The container node</h4>
+<p>You only need to provide a container node (i.e. a div), Reach will create the appropriate media element (i.e. audio or video) for the given stream.</p>
+<h3 id="switching-the-camera">Switching the camera</h3>
+<p>Once a stream is shared, you can switch between media devices:</p>
+<pre><code class="lang-javascript"><code class="source-code prettyprint">myStream.switchCamera()
+    .then(stream =&gt; {
+        // stream is myStream
+    })</code>
+</code></pre>
+<p>The switchCamera method will loop through available video devices found via mediaDevice.enumerateDevice.</p>
+<p>You can specify which device you want to switch to by passing the device&apos;s id to the switchCamera method.</p>
+<p>The same method exists for switching the microphone.</p>
+<h3 id="prefer-codecs">Prefer Codecs</h3>
+<p>On init, you can specify a preferred codec to use when negotiating the PeerConnection.</p>
+<pre><code class="lang-javascript"><code class="source-code prettyprint">const myReach = new Reach(&apos;https://io.datasync.orange.com/&lt;your_namespace&gt;&apos;, {
+    preferredAudioCodec: Reach.codecs.audio.OPUS
+    preferredVideoCodec: Reach.codecs.video.VP9
+});</code>
+</code></pre>
+<p>The preferred codec must be specified as a RegExp. You can find predefined ones in Reach.codecs.</p>
+<p>On negotiation, Reach will edit the SDP offer before sending it and reorder the available codecs to suit your configuration</p>
+<h2 id="the-data-model">The Data Model</h2>
+<p>The data model is described as a JSON schema on github in the <a href="https://github.com/webcom-components/reach-schema">webcom-components/reach-schema</a> repo.</p>
+<p>See <a href="https://webcom-components.github.io/reach-schema/#draft-00">https://webcom-components.github.io/reach-schema/#draft-00</a> to visualize the data model used in Reach.</p>
+<p>The corresponding Security Rules can be found <a href="https://webcom-components.github.io/reach-schema/draft-00/security/rules.json">here</a>.</p>
+<p>You will need to import those rules in order to enforce security in your application. Take a look at the test results to understand these rules.</p>
+</div>
+</div>
+</div>
+
+<footer class="footer">
+  Generated by <a href="https://esdoc.org">ESDoc<span data-ice="esdocVersion">(0.4.8)</span></a>
+</footer>
+
+<script src="script/search_index.js"></script>
+<script src="script/search.js"></script>
+<script src="script/pretty-print.js"></script>
+<script src="script/inherited-summary.js"></script>
+<script src="script/test-summary.js"></script>
+<script src="script/inner-link.js"></script>
+<script src="script/patch-for-local.js"></script>
+</body>
+</html>

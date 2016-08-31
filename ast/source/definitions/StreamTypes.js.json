@@ -1,0 +1,1067 @@
+{
+  "type": "Program",
+  "body": [
+    {
+      "type": "ExportNamedDeclaration",
+      "declaration": {
+        "type": "VariableDeclaration",
+        "declarations": [
+          {
+            "type": "VariableDeclarator",
+            "id": {
+              "type": "Identifier",
+              "name": "AUDIO",
+              "range": [
+                462,
+                467
+              ],
+              "loc": {
+                "start": {
+                  "line": 15,
+                  "column": 13
+                },
+                "end": {
+                  "line": 15,
+                  "column": 18
+                }
+              }
+            },
+            "init": {
+              "type": "Literal",
+              "value": "audio",
+              "raw": "'audio'",
+              "range": [
+                470,
+                477
+              ],
+              "loc": {
+                "start": {
+                  "line": 15,
+                  "column": 21
+                },
+                "end": {
+                  "line": 15,
+                  "column": 28
+                }
+              }
+            },
+            "range": [
+              462,
+              477
+            ],
+            "loc": {
+              "start": {
+                "line": 15,
+                "column": 13
+              },
+              "end": {
+                "line": 15,
+                "column": 28
+              }
+            }
+          }
+        ],
+        "kind": "const",
+        "range": [
+          456,
+          478
+        ],
+        "loc": {
+          "start": {
+            "line": 15,
+            "column": 7
+          },
+          "end": {
+            "line": 15,
+            "column": 29
+          }
+        },
+        "leadingComments": [
+          {
+            "type": "Block",
+            "value": "*\n * The available stream types\n * @typedef {Object} StreamTypes\n * @property {string} AUDIO='audio' - Audio communication service\n * @property {string} VIDEO='video' - Video communication service\n * @property {string} AUDIO_VIDEO='audio-video' - Audio and video communication service\n * @property {string} SCREEN_SHARING='screen-sharing' - Screen-sharing communication service\n ",
+            "range": [
+              0,
+              383
+            ],
+            "loc": {
+              "start": {
+                "line": 1,
+                "column": 0
+              },
+              "end": {
+                "line": 8,
+                "column": 3
+              }
+            }
+          },
+          {
+            "type": "Block",
+            "value": "*\n* Audio communication service\n* @ignore\n* @type {string}\n",
+            "range": [
+              385,
+              448
+            ],
+            "loc": {
+              "start": {
+                "line": 10,
+                "column": 0
+              },
+              "end": {
+                "line": 14,
+                "column": 2
+              }
+            }
+          }
+        ],
+        "trailingComments": [
+          {
+            "type": "Block",
+            "value": "*\n* Video communication service\n* @ignore\n* @type {string}\n",
+            "range": [
+              479,
+              542
+            ],
+            "loc": {
+              "start": {
+                "line": 16,
+                "column": 0
+              },
+              "end": {
+                "line": 20,
+                "column": 2
+              }
+            }
+          }
+        ]
+      },
+      "specifiers": [],
+      "source": null,
+      "range": [
+        449,
+        478
+      ],
+      "loc": {
+        "start": {
+          "line": 15,
+          "column": 0
+        },
+        "end": {
+          "line": 15,
+          "column": 29
+        }
+      },
+      "leadingComments": [
+        {
+          "type": "Block",
+          "value": "*\n * The available stream types\n * @typedef {Object} StreamTypes\n * @property {string} AUDIO='audio' - Audio communication service\n * @property {string} VIDEO='video' - Video communication service\n * @property {string} AUDIO_VIDEO='audio-video' - Audio and video communication service\n * @property {string} SCREEN_SHARING='screen-sharing' - Screen-sharing communication service\n ",
+          "range": [
+            0,
+            383
+          ],
+          "loc": {
+            "start": {
+              "line": 1,
+              "column": 0
+            },
+            "end": {
+              "line": 8,
+              "column": 3
+            }
+          }
+        },
+        {
+          "type": "Block",
+          "value": "*\n* Audio communication service\n* @ignore\n* @type {string}\n",
+          "range": [
+            385,
+            448
+          ],
+          "loc": {
+            "start": {
+              "line": 10,
+              "column": 0
+            },
+            "end": {
+              "line": 14,
+              "column": 2
+            }
+          }
+        }
+      ],
+      "trailingComments": [
+        {
+          "type": "Block",
+          "value": "*\n* Video communication service\n* @ignore\n* @type {string}\n",
+          "range": [
+            479,
+            542
+          ],
+          "loc": {
+            "start": {
+              "line": 16,
+              "column": 0
+            },
+            "end": {
+              "line": 20,
+              "column": 2
+            }
+          }
+        }
+      ]
+    },
+    {
+      "type": "ExportNamedDeclaration",
+      "declaration": {
+        "type": "VariableDeclaration",
+        "declarations": [
+          {
+            "type": "VariableDeclarator",
+            "id": {
+              "type": "Identifier",
+              "name": "VIDEO",
+              "range": [
+                556,
+                561
+              ],
+              "loc": {
+                "start": {
+                  "line": 21,
+                  "column": 13
+                },
+                "end": {
+                  "line": 21,
+                  "column": 18
+                }
+              }
+            },
+            "init": {
+              "type": "Literal",
+              "value": "video",
+              "raw": "'video'",
+              "range": [
+                564,
+                571
+              ],
+              "loc": {
+                "start": {
+                  "line": 21,
+                  "column": 21
+                },
+                "end": {
+                  "line": 21,
+                  "column": 28
+                }
+              }
+            },
+            "range": [
+              556,
+              571
+            ],
+            "loc": {
+              "start": {
+                "line": 21,
+                "column": 13
+              },
+              "end": {
+                "line": 21,
+                "column": 28
+              }
+            }
+          }
+        ],
+        "kind": "const",
+        "range": [
+          550,
+          572
+        ],
+        "loc": {
+          "start": {
+            "line": 21,
+            "column": 7
+          },
+          "end": {
+            "line": 21,
+            "column": 29
+          }
+        },
+        "leadingComments": [
+          {
+            "type": "Block",
+            "value": "*\n* Video communication service\n* @ignore\n* @type {string}\n",
+            "range": [
+              479,
+              542
+            ],
+            "loc": {
+              "start": {
+                "line": 16,
+                "column": 0
+              },
+              "end": {
+                "line": 20,
+                "column": 2
+              }
+            }
+          }
+        ],
+        "trailingComments": [
+          {
+            "type": "Block",
+            "value": "*\n* Audio and video communication service\n* @ignore\n* @type {string}\n",
+            "range": [
+              573,
+              646
+            ],
+            "loc": {
+              "start": {
+                "line": 22,
+                "column": 0
+              },
+              "end": {
+                "line": 26,
+                "column": 2
+              }
+            }
+          }
+        ]
+      },
+      "specifiers": [],
+      "source": null,
+      "range": [
+        543,
+        572
+      ],
+      "loc": {
+        "start": {
+          "line": 21,
+          "column": 0
+        },
+        "end": {
+          "line": 21,
+          "column": 29
+        }
+      },
+      "leadingComments": [
+        {
+          "type": "Block",
+          "value": "*\n* Video communication service\n* @ignore\n* @type {string}\n",
+          "range": [
+            479,
+            542
+          ],
+          "loc": {
+            "start": {
+              "line": 16,
+              "column": 0
+            },
+            "end": {
+              "line": 20,
+              "column": 2
+            }
+          }
+        }
+      ],
+      "trailingComments": [
+        {
+          "type": "Block",
+          "value": "*\n* Audio and video communication service\n* @ignore\n* @type {string}\n",
+          "range": [
+            573,
+            646
+          ],
+          "loc": {
+            "start": {
+              "line": 22,
+              "column": 0
+            },
+            "end": {
+              "line": 26,
+              "column": 2
+            }
+          }
+        }
+      ]
+    },
+    {
+      "type": "ExportNamedDeclaration",
+      "declaration": {
+        "type": "VariableDeclaration",
+        "declarations": [
+          {
+            "type": "VariableDeclarator",
+            "id": {
+              "type": "Identifier",
+              "name": "AUDIO_VIDEO",
+              "range": [
+                660,
+                671
+              ],
+              "loc": {
+                "start": {
+                  "line": 27,
+                  "column": 13
+                },
+                "end": {
+                  "line": 27,
+                  "column": 24
+                }
+              }
+            },
+            "init": {
+              "type": "Literal",
+              "value": "audio-video",
+              "raw": "'audio-video'",
+              "range": [
+                674,
+                687
+              ],
+              "loc": {
+                "start": {
+                  "line": 27,
+                  "column": 27
+                },
+                "end": {
+                  "line": 27,
+                  "column": 40
+                }
+              }
+            },
+            "range": [
+              660,
+              687
+            ],
+            "loc": {
+              "start": {
+                "line": 27,
+                "column": 13
+              },
+              "end": {
+                "line": 27,
+                "column": 40
+              }
+            }
+          }
+        ],
+        "kind": "const",
+        "range": [
+          654,
+          688
+        ],
+        "loc": {
+          "start": {
+            "line": 27,
+            "column": 7
+          },
+          "end": {
+            "line": 27,
+            "column": 41
+          }
+        },
+        "leadingComments": [
+          {
+            "type": "Block",
+            "value": "*\n* Audio and video communication service\n* @ignore\n* @type {string}\n",
+            "range": [
+              573,
+              646
+            ],
+            "loc": {
+              "start": {
+                "line": 22,
+                "column": 0
+              },
+              "end": {
+                "line": 26,
+                "column": 2
+              }
+            }
+          }
+        ],
+        "trailingComments": [
+          {
+            "type": "Block",
+            "value": "*\n* Screen-sharing service\n* @ignore\n* @type {string}\n",
+            "range": [
+              689,
+              747
+            ],
+            "loc": {
+              "start": {
+                "line": 28,
+                "column": 0
+              },
+              "end": {
+                "line": 32,
+                "column": 2
+              }
+            }
+          }
+        ]
+      },
+      "specifiers": [],
+      "source": null,
+      "range": [
+        647,
+        688
+      ],
+      "loc": {
+        "start": {
+          "line": 27,
+          "column": 0
+        },
+        "end": {
+          "line": 27,
+          "column": 41
+        }
+      },
+      "leadingComments": [
+        {
+          "type": "Block",
+          "value": "*\n* Audio and video communication service\n* @ignore\n* @type {string}\n",
+          "range": [
+            573,
+            646
+          ],
+          "loc": {
+            "start": {
+              "line": 22,
+              "column": 0
+            },
+            "end": {
+              "line": 26,
+              "column": 2
+            }
+          }
+        }
+      ],
+      "trailingComments": [
+        {
+          "type": "Block",
+          "value": "*\n* Screen-sharing service\n* @ignore\n* @type {string}\n",
+          "range": [
+            689,
+            747
+          ],
+          "loc": {
+            "start": {
+              "line": 28,
+              "column": 0
+            },
+            "end": {
+              "line": 32,
+              "column": 2
+            }
+          }
+        }
+      ]
+    },
+    {
+      "type": "ExportNamedDeclaration",
+      "declaration": {
+        "type": "VariableDeclaration",
+        "declarations": [
+          {
+            "type": "VariableDeclarator",
+            "id": {
+              "type": "Identifier",
+              "name": "SCREEN_SHARING",
+              "range": [
+                761,
+                775
+              ],
+              "loc": {
+                "start": {
+                  "line": 33,
+                  "column": 13
+                },
+                "end": {
+                  "line": 33,
+                  "column": 27
+                }
+              }
+            },
+            "init": {
+              "type": "Literal",
+              "value": "screen-sharing",
+              "raw": "'screen-sharing'",
+              "range": [
+                778,
+                794
+              ],
+              "loc": {
+                "start": {
+                  "line": 33,
+                  "column": 30
+                },
+                "end": {
+                  "line": 33,
+                  "column": 46
+                }
+              }
+            },
+            "range": [
+              761,
+              794
+            ],
+            "loc": {
+              "start": {
+                "line": 33,
+                "column": 13
+              },
+              "end": {
+                "line": 33,
+                "column": 46
+              }
+            }
+          }
+        ],
+        "kind": "const",
+        "range": [
+          755,
+          795
+        ],
+        "loc": {
+          "start": {
+            "line": 33,
+            "column": 7
+          },
+          "end": {
+            "line": 33,
+            "column": 47
+          }
+        },
+        "leadingComments": [
+          {
+            "type": "Block",
+            "value": "*\n* Screen-sharing service\n* @ignore\n* @type {string}\n",
+            "range": [
+              689,
+              747
+            ],
+            "loc": {
+              "start": {
+                "line": 28,
+                "column": 0
+              },
+              "end": {
+                "line": 32,
+                "column": 2
+              }
+            }
+          }
+        ],
+        "trailingComments": []
+      },
+      "specifiers": [],
+      "source": null,
+      "range": [
+        748,
+        795
+      ],
+      "loc": {
+        "start": {
+          "line": 33,
+          "column": 0
+        },
+        "end": {
+          "line": 33,
+          "column": 47
+        }
+      },
+      "leadingComments": [
+        {
+          "type": "Block",
+          "value": "*\n* Screen-sharing service\n* @ignore\n* @type {string}\n",
+          "range": [
+            689,
+            747
+          ],
+          "loc": {
+            "start": {
+              "line": 28,
+              "column": 0
+            },
+            "end": {
+              "line": 32,
+              "column": 2
+            }
+          }
+        }
+      ]
+    },
+    {
+      "type": "ExportDefaultDeclaration",
+      "declaration": {
+        "type": "ObjectExpression",
+        "properties": [
+          {
+            "type": "Property",
+            "key": {
+              "type": "Identifier",
+              "name": "AUDIO",
+              "range": [
+                813,
+                818
+              ],
+              "loc": {
+                "start": {
+                  "line": 35,
+                  "column": 16
+                },
+                "end": {
+                  "line": 35,
+                  "column": 21
+                }
+              }
+            },
+            "value": {
+              "type": "Identifier",
+              "name": "AUDIO",
+              "range": [
+                813,
+                818
+              ],
+              "loc": {
+                "start": {
+                  "line": 35,
+                  "column": 16
+                },
+                "end": {
+                  "line": 35,
+                  "column": 21
+                }
+              }
+            },
+            "kind": "init",
+            "method": false,
+            "shorthand": true,
+            "computed": false,
+            "range": [
+              813,
+              818
+            ],
+            "loc": {
+              "start": {
+                "line": 35,
+                "column": 16
+              },
+              "end": {
+                "line": 35,
+                "column": 21
+              }
+            }
+          },
+          {
+            "type": "Property",
+            "key": {
+              "type": "Identifier",
+              "name": "VIDEO",
+              "range": [
+                820,
+                825
+              ],
+              "loc": {
+                "start": {
+                  "line": 35,
+                  "column": 23
+                },
+                "end": {
+                  "line": 35,
+                  "column": 28
+                }
+              }
+            },
+            "value": {
+              "type": "Identifier",
+              "name": "VIDEO",
+              "range": [
+                820,
+                825
+              ],
+              "loc": {
+                "start": {
+                  "line": 35,
+                  "column": 23
+                },
+                "end": {
+                  "line": 35,
+                  "column": 28
+                }
+              }
+            },
+            "kind": "init",
+            "method": false,
+            "shorthand": true,
+            "computed": false,
+            "range": [
+              820,
+              825
+            ],
+            "loc": {
+              "start": {
+                "line": 35,
+                "column": 23
+              },
+              "end": {
+                "line": 35,
+                "column": 28
+              }
+            }
+          },
+          {
+            "type": "Property",
+            "key": {
+              "type": "Identifier",
+              "name": "AUDIO_VIDEO",
+              "range": [
+                827,
+                838
+              ],
+              "loc": {
+                "start": {
+                  "line": 35,
+                  "column": 30
+                },
+                "end": {
+                  "line": 35,
+                  "column": 41
+                }
+              }
+            },
+            "value": {
+              "type": "Identifier",
+              "name": "AUDIO_VIDEO",
+              "range": [
+                827,
+                838
+              ],
+              "loc": {
+                "start": {
+                  "line": 35,
+                  "column": 30
+                },
+                "end": {
+                  "line": 35,
+                  "column": 41
+                }
+              }
+            },
+            "kind": "init",
+            "method": false,
+            "shorthand": true,
+            "computed": false,
+            "range": [
+              827,
+              838
+            ],
+            "loc": {
+              "start": {
+                "line": 35,
+                "column": 30
+              },
+              "end": {
+                "line": 35,
+                "column": 41
+              }
+            }
+          },
+          {
+            "type": "Property",
+            "key": {
+              "type": "Identifier",
+              "name": "SCREEN_SHARING",
+              "range": [
+                840,
+                854
+              ],
+              "loc": {
+                "start": {
+                  "line": 35,
+                  "column": 43
+                },
+                "end": {
+                  "line": 35,
+                  "column": 57
+                }
+              }
+            },
+            "value": {
+              "type": "Identifier",
+              "name": "SCREEN_SHARING",
+              "range": [
+                840,
+                854
+              ],
+              "loc": {
+                "start": {
+                  "line": 35,
+                  "column": 43
+                },
+                "end": {
+                  "line": 35,
+                  "column": 57
+                }
+              }
+            },
+            "kind": "init",
+            "method": false,
+            "shorthand": true,
+            "computed": false,
+            "range": [
+              840,
+              854
+            ],
+            "loc": {
+              "start": {
+                "line": 35,
+                "column": 43
+              },
+              "end": {
+                "line": 35,
+                "column": 57
+              }
+            }
+          }
+        ],
+        "range": [
+          812,
+          855
+        ],
+        "loc": {
+          "start": {
+            "line": 35,
+            "column": 15
+          },
+          "end": {
+            "line": 35,
+            "column": 58
+          }
+        },
+        "leadingComments": [],
+        "trailingComments": []
+      },
+      "range": [
+        797,
+        856
+      ],
+      "loc": {
+        "start": {
+          "line": 35,
+          "column": 0
+        },
+        "end": {
+          "line": 35,
+          "column": 59
+        }
+      }
+    }
+  ],
+  "sourceType": "module",
+  "range": [
+    449,
+    856
+  ],
+  "loc": {
+    "start": {
+      "line": 15,
+      "column": 0
+    },
+    "end": {
+      "line": 35,
+      "column": 59
+    }
+  },
+  "comments": [
+    {
+      "type": "Block",
+      "value": "*\n * The available stream types\n * @typedef {Object} StreamTypes\n * @property {string} AUDIO='audio' - Audio communication service\n * @property {string} VIDEO='video' - Video communication service\n * @property {string} AUDIO_VIDEO='audio-video' - Audio and video communication service\n * @property {string} SCREEN_SHARING='screen-sharing' - Screen-sharing communication service\n ",
+      "range": [
+        0,
+        383
+      ],
+      "loc": {
+        "start": {
+          "line": 1,
+          "column": 0
+        },
+        "end": {
+          "line": 8,
+          "column": 3
+        }
+      }
+    },
+    {
+      "type": "Block",
+      "value": "*\n* Audio communication service\n* @ignore\n* @type {string}\n",
+      "range": [
+        385,
+        448
+      ],
+      "loc": {
+        "start": {
+          "line": 10,
+          "column": 0
+        },
+        "end": {
+          "line": 14,
+          "column": 2
+        }
+      }
+    },
+    {
+      "type": "Block",
+      "value": "*\n* Video communication service\n* @ignore\n* @type {string}\n",
+      "range": [
+        479,
+        542
+      ],
+      "loc": {
+        "start": {
+          "line": 16,
+          "column": 0
+        },
+        "end": {
+          "line": 20,
+          "column": 2
+        }
+      }
+    },
+    {
+      "type": "Block",
+      "value": "*\n* Audio and video communication service\n* @ignore\n* @type {string}\n",
+      "range": [
+        573,
+        646
+      ],
+      "loc": {
+        "start": {
+          "line": 22,
+          "column": 0
+        },
+        "end": {
+          "line": 26,
+          "column": 2
+        }
+      }
+    },
+    {
+      "type": "Block",
+      "value": "*\n* Screen-sharing service\n* @ignore\n* @type {string}\n",
+      "range": [
+        689,
+        747
+      ],
+      "loc": {
+        "start": {
+          "line": 28,
+          "column": 0
+        },
+        "end": {
+          "line": 32,
+          "column": 2
+        }
+      }
+    }
+  ]
+}

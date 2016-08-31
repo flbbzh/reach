@@ -1,0 +1,2657 @@
+{
+  "type": "Program",
+  "body": [
+    {
+      "type": "ExportNamedDeclaration",
+      "declaration": {
+        "type": "VariableDeclaration",
+        "declarations": [
+          {
+            "type": "VariableDeclarator",
+            "id": {
+              "type": "Identifier",
+              "name": "OPENED",
+              "range": [
+                70,
+                76
+              ],
+              "loc": {
+                "start": {
+                  "line": 6,
+                  "column": 13
+                },
+                "end": {
+                  "line": 6,
+                  "column": 19
+                }
+              }
+            },
+            "init": {
+              "type": "Literal",
+              "value": "OPENED",
+              "raw": "'OPENED'",
+              "range": [
+                79,
+                87
+              ],
+              "loc": {
+                "start": {
+                  "line": 6,
+                  "column": 22
+                },
+                "end": {
+                  "line": 6,
+                  "column": 30
+                }
+              }
+            },
+            "range": [
+              70,
+              87
+            ],
+            "loc": {
+              "start": {
+                "line": 6,
+                "column": 13
+              },
+              "end": {
+                "line": 6,
+                "column": 30
+              }
+            }
+          }
+        ],
+        "kind": "const",
+        "range": [
+          64,
+          88
+        ],
+        "loc": {
+          "start": {
+            "line": 6,
+            "column": 7
+          },
+          "end": {
+            "line": 6,
+            "column": 31
+          }
+        },
+        "leadingComments": [
+          {
+            "type": "Block",
+            "value": "*\n * OPENED\n * @access protected\n * @type {string}\n ",
+            "range": [
+              0,
+              56
+            ],
+            "loc": {
+              "start": {
+                "line": 1,
+                "column": 0
+              },
+              "end": {
+                "line": 5,
+                "column": 3
+              }
+            }
+          }
+        ],
+        "trailingComments": [
+          {
+            "type": "Block",
+            "value": "*\n * CLOSED\n * @access protected\n * @type {string}\n ",
+            "range": [
+              89,
+              145
+            ],
+            "loc": {
+              "start": {
+                "line": 7,
+                "column": 0
+              },
+              "end": {
+                "line": 11,
+                "column": 3
+              }
+            }
+          }
+        ]
+      },
+      "specifiers": [],
+      "source": null,
+      "range": [
+        57,
+        88
+      ],
+      "loc": {
+        "start": {
+          "line": 6,
+          "column": 0
+        },
+        "end": {
+          "line": 6,
+          "column": 31
+        }
+      },
+      "leadingComments": [
+        {
+          "type": "Block",
+          "value": "*\n * OPENED\n * @access protected\n * @type {string}\n ",
+          "range": [
+            0,
+            56
+          ],
+          "loc": {
+            "start": {
+              "line": 1,
+              "column": 0
+            },
+            "end": {
+              "line": 5,
+              "column": 3
+            }
+          }
+        }
+      ],
+      "trailingComments": [
+        {
+          "type": "Block",
+          "value": "*\n * CLOSED\n * @access protected\n * @type {string}\n ",
+          "range": [
+            89,
+            145
+          ],
+          "loc": {
+            "start": {
+              "line": 7,
+              "column": 0
+            },
+            "end": {
+              "line": 11,
+              "column": 3
+            }
+          }
+        }
+      ]
+    },
+    {
+      "type": "ExportNamedDeclaration",
+      "declaration": {
+        "type": "VariableDeclaration",
+        "declarations": [
+          {
+            "type": "VariableDeclarator",
+            "id": {
+              "type": "Identifier",
+              "name": "CLOSED",
+              "range": [
+                159,
+                165
+              ],
+              "loc": {
+                "start": {
+                  "line": 12,
+                  "column": 13
+                },
+                "end": {
+                  "line": 12,
+                  "column": 19
+                }
+              }
+            },
+            "init": {
+              "type": "Literal",
+              "value": "CLOSED",
+              "raw": "'CLOSED'",
+              "range": [
+                168,
+                176
+              ],
+              "loc": {
+                "start": {
+                  "line": 12,
+                  "column": 22
+                },
+                "end": {
+                  "line": 12,
+                  "column": 30
+                }
+              }
+            },
+            "range": [
+              159,
+              176
+            ],
+            "loc": {
+              "start": {
+                "line": 12,
+                "column": 13
+              },
+              "end": {
+                "line": 12,
+                "column": 30
+              }
+            }
+          }
+        ],
+        "kind": "const",
+        "range": [
+          153,
+          177
+        ],
+        "loc": {
+          "start": {
+            "line": 12,
+            "column": 7
+          },
+          "end": {
+            "line": 12,
+            "column": 31
+          }
+        },
+        "leadingComments": [
+          {
+            "type": "Block",
+            "value": "*\n * CLOSED\n * @access protected\n * @type {string}\n ",
+            "range": [
+              89,
+              145
+            ],
+            "loc": {
+              "start": {
+                "line": 7,
+                "column": 0
+              },
+              "end": {
+                "line": 11,
+                "column": 3
+              }
+            }
+          }
+        ],
+        "trailingComments": [
+          {
+            "type": "Block",
+            "value": "*\n * CLOSING\n * @access protected\n * @type {string}\n ",
+            "range": [
+              178,
+              235
+            ],
+            "loc": {
+              "start": {
+                "line": 13,
+                "column": 0
+              },
+              "end": {
+                "line": 17,
+                "column": 3
+              }
+            }
+          }
+        ]
+      },
+      "specifiers": [],
+      "source": null,
+      "range": [
+        146,
+        177
+      ],
+      "loc": {
+        "start": {
+          "line": 12,
+          "column": 0
+        },
+        "end": {
+          "line": 12,
+          "column": 31
+        }
+      },
+      "leadingComments": [
+        {
+          "type": "Block",
+          "value": "*\n * CLOSED\n * @access protected\n * @type {string}\n ",
+          "range": [
+            89,
+            145
+          ],
+          "loc": {
+            "start": {
+              "line": 7,
+              "column": 0
+            },
+            "end": {
+              "line": 11,
+              "column": 3
+            }
+          }
+        }
+      ],
+      "trailingComments": [
+        {
+          "type": "Block",
+          "value": "*\n * CLOSING\n * @access protected\n * @type {string}\n ",
+          "range": [
+            178,
+            235
+          ],
+          "loc": {
+            "start": {
+              "line": 13,
+              "column": 0
+            },
+            "end": {
+              "line": 17,
+              "column": 3
+            }
+          }
+        }
+      ]
+    },
+    {
+      "type": "ExportNamedDeclaration",
+      "declaration": {
+        "type": "VariableDeclaration",
+        "declarations": [
+          {
+            "type": "VariableDeclarator",
+            "id": {
+              "type": "Identifier",
+              "name": "CLOSING",
+              "range": [
+                249,
+                256
+              ],
+              "loc": {
+                "start": {
+                  "line": 18,
+                  "column": 13
+                },
+                "end": {
+                  "line": 18,
+                  "column": 20
+                }
+              }
+            },
+            "init": {
+              "type": "Literal",
+              "value": "CLOSING",
+              "raw": "'CLOSING'",
+              "range": [
+                259,
+                268
+              ],
+              "loc": {
+                "start": {
+                  "line": 18,
+                  "column": 23
+                },
+                "end": {
+                  "line": 18,
+                  "column": 32
+                }
+              }
+            },
+            "range": [
+              249,
+              268
+            ],
+            "loc": {
+              "start": {
+                "line": 18,
+                "column": 13
+              },
+              "end": {
+                "line": 18,
+                "column": 32
+              }
+            }
+          }
+        ],
+        "kind": "const",
+        "range": [
+          243,
+          269
+        ],
+        "loc": {
+          "start": {
+            "line": 18,
+            "column": 7
+          },
+          "end": {
+            "line": 18,
+            "column": 33
+          }
+        },
+        "leadingComments": [
+          {
+            "type": "Block",
+            "value": "*\n * CLOSING\n * @access protected\n * @type {string}\n ",
+            "range": [
+              178,
+              235
+            ],
+            "loc": {
+              "start": {
+                "line": 13,
+                "column": 0
+              },
+              "end": {
+                "line": 17,
+                "column": 3
+              }
+            }
+          }
+        ],
+        "trailingComments": [
+          {
+            "type": "Block",
+            "value": "*\n * CONNECTED\n * @access protected\n * @type {string}\n ",
+            "range": [
+              270,
+              329
+            ],
+            "loc": {
+              "start": {
+                "line": 19,
+                "column": 0
+              },
+              "end": {
+                "line": 23,
+                "column": 3
+              }
+            }
+          }
+        ]
+      },
+      "specifiers": [],
+      "source": null,
+      "range": [
+        236,
+        269
+      ],
+      "loc": {
+        "start": {
+          "line": 18,
+          "column": 0
+        },
+        "end": {
+          "line": 18,
+          "column": 33
+        }
+      },
+      "leadingComments": [
+        {
+          "type": "Block",
+          "value": "*\n * CLOSING\n * @access protected\n * @type {string}\n ",
+          "range": [
+            178,
+            235
+          ],
+          "loc": {
+            "start": {
+              "line": 13,
+              "column": 0
+            },
+            "end": {
+              "line": 17,
+              "column": 3
+            }
+          }
+        }
+      ],
+      "trailingComments": [
+        {
+          "type": "Block",
+          "value": "*\n * CONNECTED\n * @access protected\n * @type {string}\n ",
+          "range": [
+            270,
+            329
+          ],
+          "loc": {
+            "start": {
+              "line": 19,
+              "column": 0
+            },
+            "end": {
+              "line": 23,
+              "column": 3
+            }
+          }
+        }
+      ]
+    },
+    {
+      "type": "ExportNamedDeclaration",
+      "declaration": {
+        "type": "VariableDeclaration",
+        "declarations": [
+          {
+            "type": "VariableDeclarator",
+            "id": {
+              "type": "Identifier",
+              "name": "CONNECTED",
+              "range": [
+                343,
+                352
+              ],
+              "loc": {
+                "start": {
+                  "line": 24,
+                  "column": 13
+                },
+                "end": {
+                  "line": 24,
+                  "column": 22
+                }
+              }
+            },
+            "init": {
+              "type": "Literal",
+              "value": "CONNECTED",
+              "raw": "'CONNECTED'",
+              "range": [
+                355,
+                366
+              ],
+              "loc": {
+                "start": {
+                  "line": 24,
+                  "column": 25
+                },
+                "end": {
+                  "line": 24,
+                  "column": 36
+                }
+              }
+            },
+            "range": [
+              343,
+              366
+            ],
+            "loc": {
+              "start": {
+                "line": 24,
+                "column": 13
+              },
+              "end": {
+                "line": 24,
+                "column": 36
+              }
+            }
+          }
+        ],
+        "kind": "const",
+        "range": [
+          337,
+          367
+        ],
+        "loc": {
+          "start": {
+            "line": 24,
+            "column": 7
+          },
+          "end": {
+            "line": 24,
+            "column": 37
+          }
+        },
+        "leadingComments": [
+          {
+            "type": "Block",
+            "value": "*\n * CONNECTED\n * @access protected\n * @type {string}\n ",
+            "range": [
+              270,
+              329
+            ],
+            "loc": {
+              "start": {
+                "line": 19,
+                "column": 0
+              },
+              "end": {
+                "line": 23,
+                "column": 3
+              }
+            }
+          }
+        ],
+        "trailingComments": [
+          {
+            "type": "Block",
+            "value": "*\n * NOT_CONNECTED\n * @access protected\n * @type {string}\n ",
+            "range": [
+              368,
+              431
+            ],
+            "loc": {
+              "start": {
+                "line": 25,
+                "column": 0
+              },
+              "end": {
+                "line": 29,
+                "column": 3
+              }
+            }
+          }
+        ]
+      },
+      "specifiers": [],
+      "source": null,
+      "range": [
+        330,
+        367
+      ],
+      "loc": {
+        "start": {
+          "line": 24,
+          "column": 0
+        },
+        "end": {
+          "line": 24,
+          "column": 37
+        }
+      },
+      "leadingComments": [
+        {
+          "type": "Block",
+          "value": "*\n * CONNECTED\n * @access protected\n * @type {string}\n ",
+          "range": [
+            270,
+            329
+          ],
+          "loc": {
+            "start": {
+              "line": 19,
+              "column": 0
+            },
+            "end": {
+              "line": 23,
+              "column": 3
+            }
+          }
+        }
+      ],
+      "trailingComments": [
+        {
+          "type": "Block",
+          "value": "*\n * NOT_CONNECTED\n * @access protected\n * @type {string}\n ",
+          "range": [
+            368,
+            431
+          ],
+          "loc": {
+            "start": {
+              "line": 25,
+              "column": 0
+            },
+            "end": {
+              "line": 29,
+              "column": 3
+            }
+          }
+        }
+      ]
+    },
+    {
+      "type": "ExportNamedDeclaration",
+      "declaration": {
+        "type": "VariableDeclaration",
+        "declarations": [
+          {
+            "type": "VariableDeclarator",
+            "id": {
+              "type": "Identifier",
+              "name": "NOT_CONNECTED",
+              "range": [
+                445,
+                458
+              ],
+              "loc": {
+                "start": {
+                  "line": 30,
+                  "column": 13
+                },
+                "end": {
+                  "line": 30,
+                  "column": 26
+                }
+              }
+            },
+            "init": {
+              "type": "Literal",
+              "value": "NOT_CONNECTED",
+              "raw": "'NOT_CONNECTED'",
+              "range": [
+                461,
+                476
+              ],
+              "loc": {
+                "start": {
+                  "line": 30,
+                  "column": 29
+                },
+                "end": {
+                  "line": 30,
+                  "column": 44
+                }
+              }
+            },
+            "range": [
+              445,
+              476
+            ],
+            "loc": {
+              "start": {
+                "line": 30,
+                "column": 13
+              },
+              "end": {
+                "line": 30,
+                "column": 44
+              }
+            }
+          }
+        ],
+        "kind": "const",
+        "range": [
+          439,
+          477
+        ],
+        "loc": {
+          "start": {
+            "line": 30,
+            "column": 7
+          },
+          "end": {
+            "line": 30,
+            "column": 45
+          }
+        },
+        "leadingComments": [
+          {
+            "type": "Block",
+            "value": "*\n * NOT_CONNECTED\n * @access protected\n * @type {string}\n ",
+            "range": [
+              368,
+              431
+            ],
+            "loc": {
+              "start": {
+                "line": 25,
+                "column": 0
+              },
+              "end": {
+                "line": 29,
+                "column": 3
+              }
+            }
+          }
+        ],
+        "trailingComments": [
+          {
+            "type": "Block",
+            "value": "*\n * WAS_CONNECTED\n * @access protected\n * @type {string}\n ",
+            "range": [
+              478,
+              541
+            ],
+            "loc": {
+              "start": {
+                "line": 31,
+                "column": 0
+              },
+              "end": {
+                "line": 35,
+                "column": 3
+              }
+            }
+          }
+        ]
+      },
+      "specifiers": [],
+      "source": null,
+      "range": [
+        432,
+        477
+      ],
+      "loc": {
+        "start": {
+          "line": 30,
+          "column": 0
+        },
+        "end": {
+          "line": 30,
+          "column": 45
+        }
+      },
+      "leadingComments": [
+        {
+          "type": "Block",
+          "value": "*\n * NOT_CONNECTED\n * @access protected\n * @type {string}\n ",
+          "range": [
+            368,
+            431
+          ],
+          "loc": {
+            "start": {
+              "line": 25,
+              "column": 0
+            },
+            "end": {
+              "line": 29,
+              "column": 3
+            }
+          }
+        }
+      ],
+      "trailingComments": [
+        {
+          "type": "Block",
+          "value": "*\n * WAS_CONNECTED\n * @access protected\n * @type {string}\n ",
+          "range": [
+            478,
+            541
+          ],
+          "loc": {
+            "start": {
+              "line": 31,
+              "column": 0
+            },
+            "end": {
+              "line": 35,
+              "column": 3
+            }
+          }
+        }
+      ]
+    },
+    {
+      "type": "ExportNamedDeclaration",
+      "declaration": {
+        "type": "VariableDeclaration",
+        "declarations": [
+          {
+            "type": "VariableDeclarator",
+            "id": {
+              "type": "Identifier",
+              "name": "WAS_CONNECTED",
+              "range": [
+                555,
+                568
+              ],
+              "loc": {
+                "start": {
+                  "line": 36,
+                  "column": 13
+                },
+                "end": {
+                  "line": 36,
+                  "column": 26
+                }
+              }
+            },
+            "init": {
+              "type": "Literal",
+              "value": "WAS_CONNECTED",
+              "raw": "'WAS_CONNECTED'",
+              "range": [
+                571,
+                586
+              ],
+              "loc": {
+                "start": {
+                  "line": 36,
+                  "column": 29
+                },
+                "end": {
+                  "line": 36,
+                  "column": 44
+                }
+              }
+            },
+            "range": [
+              555,
+              586
+            ],
+            "loc": {
+              "start": {
+                "line": 36,
+                "column": 13
+              },
+              "end": {
+                "line": 36,
+                "column": 44
+              }
+            }
+          }
+        ],
+        "kind": "const",
+        "range": [
+          549,
+          587
+        ],
+        "loc": {
+          "start": {
+            "line": 36,
+            "column": 7
+          },
+          "end": {
+            "line": 36,
+            "column": 45
+          }
+        },
+        "leadingComments": [
+          {
+            "type": "Block",
+            "value": "*\n * WAS_CONNECTED\n * @access protected\n * @type {string}\n ",
+            "range": [
+              478,
+              541
+            ],
+            "loc": {
+              "start": {
+                "line": 31,
+                "column": 0
+              },
+              "end": {
+                "line": 35,
+                "column": 3
+              }
+            }
+          }
+        ],
+        "trailingComments": [
+          {
+            "type": "Block",
+            "value": "*\n * OWNER\n * @access protected\n * @type {string}\n ",
+            "range": [
+              588,
+              643
+            ],
+            "loc": {
+              "start": {
+                "line": 37,
+                "column": 0
+              },
+              "end": {
+                "line": 41,
+                "column": 3
+              }
+            }
+          }
+        ]
+      },
+      "specifiers": [],
+      "source": null,
+      "range": [
+        542,
+        587
+      ],
+      "loc": {
+        "start": {
+          "line": 36,
+          "column": 0
+        },
+        "end": {
+          "line": 36,
+          "column": 45
+        }
+      },
+      "leadingComments": [
+        {
+          "type": "Block",
+          "value": "*\n * WAS_CONNECTED\n * @access protected\n * @type {string}\n ",
+          "range": [
+            478,
+            541
+          ],
+          "loc": {
+            "start": {
+              "line": 31,
+              "column": 0
+            },
+            "end": {
+              "line": 35,
+              "column": 3
+            }
+          }
+        }
+      ],
+      "trailingComments": [
+        {
+          "type": "Block",
+          "value": "*\n * OWNER\n * @access protected\n * @type {string}\n ",
+          "range": [
+            588,
+            643
+          ],
+          "loc": {
+            "start": {
+              "line": 37,
+              "column": 0
+            },
+            "end": {
+              "line": 41,
+              "column": 3
+            }
+          }
+        }
+      ]
+    },
+    {
+      "type": "ExportNamedDeclaration",
+      "declaration": {
+        "type": "VariableDeclaration",
+        "declarations": [
+          {
+            "type": "VariableDeclarator",
+            "id": {
+              "type": "Identifier",
+              "name": "OWNER",
+              "range": [
+                657,
+                662
+              ],
+              "loc": {
+                "start": {
+                  "line": 42,
+                  "column": 13
+                },
+                "end": {
+                  "line": 42,
+                  "column": 18
+                }
+              }
+            },
+            "init": {
+              "type": "Literal",
+              "value": "OWNER",
+              "raw": "'OWNER'",
+              "range": [
+                665,
+                672
+              ],
+              "loc": {
+                "start": {
+                  "line": 42,
+                  "column": 21
+                },
+                "end": {
+                  "line": 42,
+                  "column": 28
+                }
+              }
+            },
+            "range": [
+              657,
+              672
+            ],
+            "loc": {
+              "start": {
+                "line": 42,
+                "column": 13
+              },
+              "end": {
+                "line": 42,
+                "column": 28
+              }
+            }
+          }
+        ],
+        "kind": "const",
+        "range": [
+          651,
+          673
+        ],
+        "loc": {
+          "start": {
+            "line": 42,
+            "column": 7
+          },
+          "end": {
+            "line": 42,
+            "column": 29
+          }
+        },
+        "leadingComments": [
+          {
+            "type": "Block",
+            "value": "*\n * OWNER\n * @access protected\n * @type {string}\n ",
+            "range": [
+              588,
+              643
+            ],
+            "loc": {
+              "start": {
+                "line": 37,
+                "column": 0
+              },
+              "end": {
+                "line": 41,
+                "column": 3
+              }
+            }
+          }
+        ],
+        "trailingComments": [
+          {
+            "type": "Block",
+            "value": "*\n * MODERATOR\n * @access protected\n * @type {string}\n ",
+            "range": [
+              674,
+              733
+            ],
+            "loc": {
+              "start": {
+                "line": 43,
+                "column": 0
+              },
+              "end": {
+                "line": 47,
+                "column": 3
+              }
+            }
+          }
+        ]
+      },
+      "specifiers": [],
+      "source": null,
+      "range": [
+        644,
+        673
+      ],
+      "loc": {
+        "start": {
+          "line": 42,
+          "column": 0
+        },
+        "end": {
+          "line": 42,
+          "column": 29
+        }
+      },
+      "leadingComments": [
+        {
+          "type": "Block",
+          "value": "*\n * OWNER\n * @access protected\n * @type {string}\n ",
+          "range": [
+            588,
+            643
+          ],
+          "loc": {
+            "start": {
+              "line": 37,
+              "column": 0
+            },
+            "end": {
+              "line": 41,
+              "column": 3
+            }
+          }
+        }
+      ],
+      "trailingComments": [
+        {
+          "type": "Block",
+          "value": "*\n * MODERATOR\n * @access protected\n * @type {string}\n ",
+          "range": [
+            674,
+            733
+          ],
+          "loc": {
+            "start": {
+              "line": 43,
+              "column": 0
+            },
+            "end": {
+              "line": 47,
+              "column": 3
+            }
+          }
+        }
+      ]
+    },
+    {
+      "type": "ExportNamedDeclaration",
+      "declaration": {
+        "type": "VariableDeclaration",
+        "declarations": [
+          {
+            "type": "VariableDeclarator",
+            "id": {
+              "type": "Identifier",
+              "name": "MODERATOR",
+              "range": [
+                747,
+                756
+              ],
+              "loc": {
+                "start": {
+                  "line": 48,
+                  "column": 13
+                },
+                "end": {
+                  "line": 48,
+                  "column": 22
+                }
+              }
+            },
+            "init": {
+              "type": "Literal",
+              "value": "MODERATOR",
+              "raw": "'MODERATOR'",
+              "range": [
+                759,
+                770
+              ],
+              "loc": {
+                "start": {
+                  "line": 48,
+                  "column": 25
+                },
+                "end": {
+                  "line": 48,
+                  "column": 36
+                }
+              }
+            },
+            "range": [
+              747,
+              770
+            ],
+            "loc": {
+              "start": {
+                "line": 48,
+                "column": 13
+              },
+              "end": {
+                "line": 48,
+                "column": 36
+              }
+            }
+          }
+        ],
+        "kind": "const",
+        "range": [
+          741,
+          771
+        ],
+        "loc": {
+          "start": {
+            "line": 48,
+            "column": 7
+          },
+          "end": {
+            "line": 48,
+            "column": 37
+          }
+        },
+        "leadingComments": [
+          {
+            "type": "Block",
+            "value": "*\n * MODERATOR\n * @access protected\n * @type {string}\n ",
+            "range": [
+              674,
+              733
+            ],
+            "loc": {
+              "start": {
+                "line": 43,
+                "column": 0
+              },
+              "end": {
+                "line": 47,
+                "column": 3
+              }
+            }
+          }
+        ],
+        "trailingComments": [
+          {
+            "type": "Block",
+            "value": "*\n * PARTICIPANT\n * @access protected\n * @type {string}\n ",
+            "range": [
+              772,
+              833
+            ],
+            "loc": {
+              "start": {
+                "line": 49,
+                "column": 0
+              },
+              "end": {
+                "line": 53,
+                "column": 3
+              }
+            }
+          }
+        ]
+      },
+      "specifiers": [],
+      "source": null,
+      "range": [
+        734,
+        771
+      ],
+      "loc": {
+        "start": {
+          "line": 48,
+          "column": 0
+        },
+        "end": {
+          "line": 48,
+          "column": 37
+        }
+      },
+      "leadingComments": [
+        {
+          "type": "Block",
+          "value": "*\n * MODERATOR\n * @access protected\n * @type {string}\n ",
+          "range": [
+            674,
+            733
+          ],
+          "loc": {
+            "start": {
+              "line": 43,
+              "column": 0
+            },
+            "end": {
+              "line": 47,
+              "column": 3
+            }
+          }
+        }
+      ],
+      "trailingComments": [
+        {
+          "type": "Block",
+          "value": "*\n * PARTICIPANT\n * @access protected\n * @type {string}\n ",
+          "range": [
+            772,
+            833
+          ],
+          "loc": {
+            "start": {
+              "line": 49,
+              "column": 0
+            },
+            "end": {
+              "line": 53,
+              "column": 3
+            }
+          }
+        }
+      ]
+    },
+    {
+      "type": "ExportNamedDeclaration",
+      "declaration": {
+        "type": "VariableDeclaration",
+        "declarations": [
+          {
+            "type": "VariableDeclarator",
+            "id": {
+              "type": "Identifier",
+              "name": "PARTICIPANT",
+              "range": [
+                847,
+                858
+              ],
+              "loc": {
+                "start": {
+                  "line": 54,
+                  "column": 13
+                },
+                "end": {
+                  "line": 54,
+                  "column": 24
+                }
+              }
+            },
+            "init": {
+              "type": "Literal",
+              "value": "PARTICIPANT",
+              "raw": "'PARTICIPANT'",
+              "range": [
+                861,
+                874
+              ],
+              "loc": {
+                "start": {
+                  "line": 54,
+                  "column": 27
+                },
+                "end": {
+                  "line": 54,
+                  "column": 40
+                }
+              }
+            },
+            "range": [
+              847,
+              874
+            ],
+            "loc": {
+              "start": {
+                "line": 54,
+                "column": 13
+              },
+              "end": {
+                "line": 54,
+                "column": 40
+              }
+            }
+          }
+        ],
+        "kind": "const",
+        "range": [
+          841,
+          875
+        ],
+        "loc": {
+          "start": {
+            "line": 54,
+            "column": 7
+          },
+          "end": {
+            "line": 54,
+            "column": 41
+          }
+        },
+        "leadingComments": [
+          {
+            "type": "Block",
+            "value": "*\n * PARTICIPANT\n * @access protected\n * @type {string}\n ",
+            "range": [
+              772,
+              833
+            ],
+            "loc": {
+              "start": {
+                "line": 49,
+                "column": 0
+              },
+              "end": {
+                "line": 53,
+                "column": 3
+              }
+            }
+          }
+        ],
+        "trailingComments": [
+          {
+            "type": "Block",
+            "value": "*\n * NONE\n * @access protected\n * @type {string}\n ",
+            "range": [
+              876,
+              930
+            ],
+            "loc": {
+              "start": {
+                "line": 55,
+                "column": 0
+              },
+              "end": {
+                "line": 59,
+                "column": 3
+              }
+            }
+          }
+        ]
+      },
+      "specifiers": [],
+      "source": null,
+      "range": [
+        834,
+        875
+      ],
+      "loc": {
+        "start": {
+          "line": 54,
+          "column": 0
+        },
+        "end": {
+          "line": 54,
+          "column": 41
+        }
+      },
+      "leadingComments": [
+        {
+          "type": "Block",
+          "value": "*\n * PARTICIPANT\n * @access protected\n * @type {string}\n ",
+          "range": [
+            772,
+            833
+          ],
+          "loc": {
+            "start": {
+              "line": 49,
+              "column": 0
+            },
+            "end": {
+              "line": 53,
+              "column": 3
+            }
+          }
+        }
+      ],
+      "trailingComments": [
+        {
+          "type": "Block",
+          "value": "*\n * NONE\n * @access protected\n * @type {string}\n ",
+          "range": [
+            876,
+            930
+          ],
+          "loc": {
+            "start": {
+              "line": 55,
+              "column": 0
+            },
+            "end": {
+              "line": 59,
+              "column": 3
+            }
+          }
+        }
+      ]
+    },
+    {
+      "type": "ExportNamedDeclaration",
+      "declaration": {
+        "type": "VariableDeclaration",
+        "declarations": [
+          {
+            "type": "VariableDeclarator",
+            "id": {
+              "type": "Identifier",
+              "name": "NONE",
+              "range": [
+                944,
+                948
+              ],
+              "loc": {
+                "start": {
+                  "line": 60,
+                  "column": 13
+                },
+                "end": {
+                  "line": 60,
+                  "column": 17
+                }
+              }
+            },
+            "init": {
+              "type": "Literal",
+              "value": "NONE",
+              "raw": "'NONE'",
+              "range": [
+                951,
+                957
+              ],
+              "loc": {
+                "start": {
+                  "line": 60,
+                  "column": 20
+                },
+                "end": {
+                  "line": 60,
+                  "column": 26
+                }
+              }
+            },
+            "range": [
+              944,
+              957
+            ],
+            "loc": {
+              "start": {
+                "line": 60,
+                "column": 13
+              },
+              "end": {
+                "line": 60,
+                "column": 26
+              }
+            }
+          }
+        ],
+        "kind": "const",
+        "range": [
+          938,
+          958
+        ],
+        "loc": {
+          "start": {
+            "line": 60,
+            "column": 7
+          },
+          "end": {
+            "line": 60,
+            "column": 27
+          }
+        },
+        "leadingComments": [
+          {
+            "type": "Block",
+            "value": "*\n * NONE\n * @access protected\n * @type {string}\n ",
+            "range": [
+              876,
+              930
+            ],
+            "loc": {
+              "start": {
+                "line": 55,
+                "column": 0
+              },
+              "end": {
+                "line": 59,
+                "column": 3
+              }
+            }
+          }
+        ],
+        "trailingComments": [
+          {
+            "type": "Block",
+            "value": "*\n * Ongoing invitation\n * @access protected\n * @type {string}\n ",
+            "range": [
+              959,
+              1027
+            ],
+            "loc": {
+              "start": {
+                "line": 61,
+                "column": 0
+              },
+              "end": {
+                "line": 65,
+                "column": 3
+              }
+            }
+          }
+        ]
+      },
+      "specifiers": [],
+      "source": null,
+      "range": [
+        931,
+        958
+      ],
+      "loc": {
+        "start": {
+          "line": 60,
+          "column": 0
+        },
+        "end": {
+          "line": 60,
+          "column": 27
+        }
+      },
+      "leadingComments": [
+        {
+          "type": "Block",
+          "value": "*\n * NONE\n * @access protected\n * @type {string}\n ",
+          "range": [
+            876,
+            930
+          ],
+          "loc": {
+            "start": {
+              "line": 55,
+              "column": 0
+            },
+            "end": {
+              "line": 59,
+              "column": 3
+            }
+          }
+        }
+      ],
+      "trailingComments": [
+        {
+          "type": "Block",
+          "value": "*\n * Ongoing invitation\n * @access protected\n * @type {string}\n ",
+          "range": [
+            959,
+            1027
+          ],
+          "loc": {
+            "start": {
+              "line": 61,
+              "column": 0
+            },
+            "end": {
+              "line": 65,
+              "column": 3
+            }
+          }
+        }
+      ]
+    },
+    {
+      "type": "ExportNamedDeclaration",
+      "declaration": {
+        "type": "VariableDeclaration",
+        "declarations": [
+          {
+            "type": "VariableDeclarator",
+            "id": {
+              "type": "Identifier",
+              "name": "ONGOING",
+              "range": [
+                1041,
+                1048
+              ],
+              "loc": {
+                "start": {
+                  "line": 66,
+                  "column": 13
+                },
+                "end": {
+                  "line": 66,
+                  "column": 20
+                }
+              }
+            },
+            "init": {
+              "type": "Literal",
+              "value": "ONGOING",
+              "raw": "'ONGOING'",
+              "range": [
+                1051,
+                1060
+              ],
+              "loc": {
+                "start": {
+                  "line": 66,
+                  "column": 23
+                },
+                "end": {
+                  "line": 66,
+                  "column": 32
+                }
+              }
+            },
+            "range": [
+              1041,
+              1060
+            ],
+            "loc": {
+              "start": {
+                "line": 66,
+                "column": 13
+              },
+              "end": {
+                "line": 66,
+                "column": 32
+              }
+            }
+          }
+        ],
+        "kind": "const",
+        "range": [
+          1035,
+          1061
+        ],
+        "loc": {
+          "start": {
+            "line": 66,
+            "column": 7
+          },
+          "end": {
+            "line": 66,
+            "column": 33
+          }
+        },
+        "leadingComments": [
+          {
+            "type": "Block",
+            "value": "*\n * Ongoing invitation\n * @access protected\n * @type {string}\n ",
+            "range": [
+              959,
+              1027
+            ],
+            "loc": {
+              "start": {
+                "line": 61,
+                "column": 0
+              },
+              "end": {
+                "line": 65,
+                "column": 3
+              }
+            }
+          }
+        ],
+        "trailingComments": [
+          {
+            "type": "Block",
+            "value": "*\n * Accepted invitation\n * @access protected\n * @type {string}\n ",
+            "range": [
+              1062,
+              1131
+            ],
+            "loc": {
+              "start": {
+                "line": 67,
+                "column": 0
+              },
+              "end": {
+                "line": 71,
+                "column": 3
+              }
+            }
+          }
+        ]
+      },
+      "specifiers": [],
+      "source": null,
+      "range": [
+        1028,
+        1061
+      ],
+      "loc": {
+        "start": {
+          "line": 66,
+          "column": 0
+        },
+        "end": {
+          "line": 66,
+          "column": 33
+        }
+      },
+      "leadingComments": [
+        {
+          "type": "Block",
+          "value": "*\n * Ongoing invitation\n * @access protected\n * @type {string}\n ",
+          "range": [
+            959,
+            1027
+          ],
+          "loc": {
+            "start": {
+              "line": 61,
+              "column": 0
+            },
+            "end": {
+              "line": 65,
+              "column": 3
+            }
+          }
+        }
+      ],
+      "trailingComments": [
+        {
+          "type": "Block",
+          "value": "*\n * Accepted invitation\n * @access protected\n * @type {string}\n ",
+          "range": [
+            1062,
+            1131
+          ],
+          "loc": {
+            "start": {
+              "line": 67,
+              "column": 0
+            },
+            "end": {
+              "line": 71,
+              "column": 3
+            }
+          }
+        }
+      ]
+    },
+    {
+      "type": "ExportNamedDeclaration",
+      "declaration": {
+        "type": "VariableDeclaration",
+        "declarations": [
+          {
+            "type": "VariableDeclarator",
+            "id": {
+              "type": "Identifier",
+              "name": "ACCEPTED",
+              "range": [
+                1145,
+                1153
+              ],
+              "loc": {
+                "start": {
+                  "line": 72,
+                  "column": 13
+                },
+                "end": {
+                  "line": 72,
+                  "column": 21
+                }
+              }
+            },
+            "init": {
+              "type": "Literal",
+              "value": "ACCEPTED",
+              "raw": "'ACCEPTED'",
+              "range": [
+                1156,
+                1166
+              ],
+              "loc": {
+                "start": {
+                  "line": 72,
+                  "column": 24
+                },
+                "end": {
+                  "line": 72,
+                  "column": 34
+                }
+              }
+            },
+            "range": [
+              1145,
+              1166
+            ],
+            "loc": {
+              "start": {
+                "line": 72,
+                "column": 13
+              },
+              "end": {
+                "line": 72,
+                "column": 34
+              }
+            }
+          }
+        ],
+        "kind": "const",
+        "range": [
+          1139,
+          1167
+        ],
+        "loc": {
+          "start": {
+            "line": 72,
+            "column": 7
+          },
+          "end": {
+            "line": 72,
+            "column": 35
+          }
+        },
+        "leadingComments": [
+          {
+            "type": "Block",
+            "value": "*\n * Accepted invitation\n * @access protected\n * @type {string}\n ",
+            "range": [
+              1062,
+              1131
+            ],
+            "loc": {
+              "start": {
+                "line": 67,
+                "column": 0
+              },
+              "end": {
+                "line": 71,
+                "column": 3
+              }
+            }
+          }
+        ],
+        "trailingComments": [
+          {
+            "type": "Block",
+            "value": "*\n * Rejected invitation\n * @access protected\n * @type {string}\n ",
+            "range": [
+              1168,
+              1237
+            ],
+            "loc": {
+              "start": {
+                "line": 73,
+                "column": 0
+              },
+              "end": {
+                "line": 77,
+                "column": 3
+              }
+            }
+          }
+        ]
+      },
+      "specifiers": [],
+      "source": null,
+      "range": [
+        1132,
+        1167
+      ],
+      "loc": {
+        "start": {
+          "line": 72,
+          "column": 0
+        },
+        "end": {
+          "line": 72,
+          "column": 35
+        }
+      },
+      "leadingComments": [
+        {
+          "type": "Block",
+          "value": "*\n * Accepted invitation\n * @access protected\n * @type {string}\n ",
+          "range": [
+            1062,
+            1131
+          ],
+          "loc": {
+            "start": {
+              "line": 67,
+              "column": 0
+            },
+            "end": {
+              "line": 71,
+              "column": 3
+            }
+          }
+        }
+      ],
+      "trailingComments": [
+        {
+          "type": "Block",
+          "value": "*\n * Rejected invitation\n * @access protected\n * @type {string}\n ",
+          "range": [
+            1168,
+            1237
+          ],
+          "loc": {
+            "start": {
+              "line": 73,
+              "column": 0
+            },
+            "end": {
+              "line": 77,
+              "column": 3
+            }
+          }
+        }
+      ]
+    },
+    {
+      "type": "ExportNamedDeclaration",
+      "declaration": {
+        "type": "VariableDeclaration",
+        "declarations": [
+          {
+            "type": "VariableDeclarator",
+            "id": {
+              "type": "Identifier",
+              "name": "REJECTED",
+              "range": [
+                1251,
+                1259
+              ],
+              "loc": {
+                "start": {
+                  "line": 78,
+                  "column": 13
+                },
+                "end": {
+                  "line": 78,
+                  "column": 21
+                }
+              }
+            },
+            "init": {
+              "type": "Literal",
+              "value": "REJECTED",
+              "raw": "'REJECTED'",
+              "range": [
+                1262,
+                1272
+              ],
+              "loc": {
+                "start": {
+                  "line": 78,
+                  "column": 24
+                },
+                "end": {
+                  "line": 78,
+                  "column": 34
+                }
+              }
+            },
+            "range": [
+              1251,
+              1272
+            ],
+            "loc": {
+              "start": {
+                "line": 78,
+                "column": 13
+              },
+              "end": {
+                "line": 78,
+                "column": 34
+              }
+            }
+          }
+        ],
+        "kind": "const",
+        "range": [
+          1245,
+          1273
+        ],
+        "loc": {
+          "start": {
+            "line": 78,
+            "column": 7
+          },
+          "end": {
+            "line": 78,
+            "column": 35
+          }
+        },
+        "leadingComments": [
+          {
+            "type": "Block",
+            "value": "*\n * Rejected invitation\n * @access protected\n * @type {string}\n ",
+            "range": [
+              1168,
+              1237
+            ],
+            "loc": {
+              "start": {
+                "line": 73,
+                "column": 0
+              },
+              "end": {
+                "line": 77,
+                "column": 3
+              }
+            }
+          }
+        ],
+        "trailingComments": [
+          {
+            "type": "Block",
+            "value": "*\n * Canceled invitation\n * @access protected\n * @type {string}\n ",
+            "range": [
+              1274,
+              1343
+            ],
+            "loc": {
+              "start": {
+                "line": 79,
+                "column": 0
+              },
+              "end": {
+                "line": 83,
+                "column": 3
+              }
+            }
+          }
+        ]
+      },
+      "specifiers": [],
+      "source": null,
+      "range": [
+        1238,
+        1273
+      ],
+      "loc": {
+        "start": {
+          "line": 78,
+          "column": 0
+        },
+        "end": {
+          "line": 78,
+          "column": 35
+        }
+      },
+      "leadingComments": [
+        {
+          "type": "Block",
+          "value": "*\n * Rejected invitation\n * @access protected\n * @type {string}\n ",
+          "range": [
+            1168,
+            1237
+          ],
+          "loc": {
+            "start": {
+              "line": 73,
+              "column": 0
+            },
+            "end": {
+              "line": 77,
+              "column": 3
+            }
+          }
+        }
+      ],
+      "trailingComments": [
+        {
+          "type": "Block",
+          "value": "*\n * Canceled invitation\n * @access protected\n * @type {string}\n ",
+          "range": [
+            1274,
+            1343
+          ],
+          "loc": {
+            "start": {
+              "line": 79,
+              "column": 0
+            },
+            "end": {
+              "line": 83,
+              "column": 3
+            }
+          }
+        }
+      ]
+    },
+    {
+      "type": "ExportNamedDeclaration",
+      "declaration": {
+        "type": "VariableDeclaration",
+        "declarations": [
+          {
+            "type": "VariableDeclarator",
+            "id": {
+              "type": "Identifier",
+              "name": "CANCELED",
+              "range": [
+                1357,
+                1365
+              ],
+              "loc": {
+                "start": {
+                  "line": 84,
+                  "column": 13
+                },
+                "end": {
+                  "line": 84,
+                  "column": 21
+                }
+              }
+            },
+            "init": {
+              "type": "Literal",
+              "value": "CANCELED",
+              "raw": "'CANCELED'",
+              "range": [
+                1368,
+                1378
+              ],
+              "loc": {
+                "start": {
+                  "line": 84,
+                  "column": 24
+                },
+                "end": {
+                  "line": 84,
+                  "column": 34
+                }
+              }
+            },
+            "range": [
+              1357,
+              1378
+            ],
+            "loc": {
+              "start": {
+                "line": 84,
+                "column": 13
+              },
+              "end": {
+                "line": 84,
+                "column": 34
+              }
+            }
+          }
+        ],
+        "kind": "const",
+        "range": [
+          1351,
+          1379
+        ],
+        "loc": {
+          "start": {
+            "line": 84,
+            "column": 7
+          },
+          "end": {
+            "line": 84,
+            "column": 35
+          }
+        },
+        "leadingComments": [
+          {
+            "type": "Block",
+            "value": "*\n * Canceled invitation\n * @access protected\n * @type {string}\n ",
+            "range": [
+              1274,
+              1343
+            ],
+            "loc": {
+              "start": {
+                "line": 79,
+                "column": 0
+              },
+              "end": {
+                "line": 83,
+                "column": 3
+              }
+            }
+          }
+        ],
+        "trailingComments": []
+      },
+      "specifiers": [],
+      "source": null,
+      "range": [
+        1344,
+        1379
+      ],
+      "loc": {
+        "start": {
+          "line": 84,
+          "column": 0
+        },
+        "end": {
+          "line": 84,
+          "column": 35
+        }
+      },
+      "leadingComments": [
+        {
+          "type": "Block",
+          "value": "*\n * Canceled invitation\n * @access protected\n * @type {string}\n ",
+          "range": [
+            1274,
+            1343
+          ],
+          "loc": {
+            "start": {
+              "line": 79,
+              "column": 0
+            },
+            "end": {
+              "line": 83,
+              "column": 3
+            }
+          }
+        }
+      ]
+    }
+  ],
+  "sourceType": "module",
+  "range": [
+    57,
+    1379
+  ],
+  "loc": {
+    "start": {
+      "line": 6,
+      "column": 0
+    },
+    "end": {
+      "line": 84,
+      "column": 35
+    }
+  },
+  "comments": [
+    {
+      "type": "Block",
+      "value": "*\n * OPENED\n * @access protected\n * @type {string}\n ",
+      "range": [
+        0,
+        56
+      ],
+      "loc": {
+        "start": {
+          "line": 1,
+          "column": 0
+        },
+        "end": {
+          "line": 5,
+          "column": 3
+        }
+      }
+    },
+    {
+      "type": "Block",
+      "value": "*\n * CLOSED\n * @access protected\n * @type {string}\n ",
+      "range": [
+        89,
+        145
+      ],
+      "loc": {
+        "start": {
+          "line": 7,
+          "column": 0
+        },
+        "end": {
+          "line": 11,
+          "column": 3
+        }
+      }
+    },
+    {
+      "type": "Block",
+      "value": "*\n * CLOSING\n * @access protected\n * @type {string}\n ",
+      "range": [
+        178,
+        235
+      ],
+      "loc": {
+        "start": {
+          "line": 13,
+          "column": 0
+        },
+        "end": {
+          "line": 17,
+          "column": 3
+        }
+      }
+    },
+    {
+      "type": "Block",
+      "value": "*\n * CONNECTED\n * @access protected\n * @type {string}\n ",
+      "range": [
+        270,
+        329
+      ],
+      "loc": {
+        "start": {
+          "line": 19,
+          "column": 0
+        },
+        "end": {
+          "line": 23,
+          "column": 3
+        }
+      }
+    },
+    {
+      "type": "Block",
+      "value": "*\n * NOT_CONNECTED\n * @access protected\n * @type {string}\n ",
+      "range": [
+        368,
+        431
+      ],
+      "loc": {
+        "start": {
+          "line": 25,
+          "column": 0
+        },
+        "end": {
+          "line": 29,
+          "column": 3
+        }
+      }
+    },
+    {
+      "type": "Block",
+      "value": "*\n * WAS_CONNECTED\n * @access protected\n * @type {string}\n ",
+      "range": [
+        478,
+        541
+      ],
+      "loc": {
+        "start": {
+          "line": 31,
+          "column": 0
+        },
+        "end": {
+          "line": 35,
+          "column": 3
+        }
+      }
+    },
+    {
+      "type": "Block",
+      "value": "*\n * OWNER\n * @access protected\n * @type {string}\n ",
+      "range": [
+        588,
+        643
+      ],
+      "loc": {
+        "start": {
+          "line": 37,
+          "column": 0
+        },
+        "end": {
+          "line": 41,
+          "column": 3
+        }
+      }
+    },
+    {
+      "type": "Block",
+      "value": "*\n * MODERATOR\n * @access protected\n * @type {string}\n ",
+      "range": [
+        674,
+        733
+      ],
+      "loc": {
+        "start": {
+          "line": 43,
+          "column": 0
+        },
+        "end": {
+          "line": 47,
+          "column": 3
+        }
+      }
+    },
+    {
+      "type": "Block",
+      "value": "*\n * PARTICIPANT\n * @access protected\n * @type {string}\n ",
+      "range": [
+        772,
+        833
+      ],
+      "loc": {
+        "start": {
+          "line": 49,
+          "column": 0
+        },
+        "end": {
+          "line": 53,
+          "column": 3
+        }
+      }
+    },
+    {
+      "type": "Block",
+      "value": "*\n * NONE\n * @access protected\n * @type {string}\n ",
+      "range": [
+        876,
+        930
+      ],
+      "loc": {
+        "start": {
+          "line": 55,
+          "column": 0
+        },
+        "end": {
+          "line": 59,
+          "column": 3
+        }
+      }
+    },
+    {
+      "type": "Block",
+      "value": "*\n * Ongoing invitation\n * @access protected\n * @type {string}\n ",
+      "range": [
+        959,
+        1027
+      ],
+      "loc": {
+        "start": {
+          "line": 61,
+          "column": 0
+        },
+        "end": {
+          "line": 65,
+          "column": 3
+        }
+      }
+    },
+    {
+      "type": "Block",
+      "value": "*\n * Accepted invitation\n * @access protected\n * @type {string}\n ",
+      "range": [
+        1062,
+        1131
+      ],
+      "loc": {
+        "start": {
+          "line": 67,
+          "column": 0
+        },
+        "end": {
+          "line": 71,
+          "column": 3
+        }
+      }
+    },
+    {
+      "type": "Block",
+      "value": "*\n * Rejected invitation\n * @access protected\n * @type {string}\n ",
+      "range": [
+        1168,
+        1237
+      ],
+      "loc": {
+        "start": {
+          "line": 73,
+          "column": 0
+        },
+        "end": {
+          "line": 77,
+          "column": 3
+        }
+      }
+    },
+    {
+      "type": "Block",
+      "value": "*\n * Canceled invitation\n * @access protected\n * @type {string}\n ",
+      "range": [
+        1274,
+        1343
+      ],
+      "loc": {
+        "start": {
+          "line": 79,
+          "column": 0
+        },
+        "end": {
+          "line": 83,
+          "column": 3
+        }
+      }
+    }
+  ]
+}

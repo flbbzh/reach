@@ -1,0 +1,95 @@
+{
+  "type": "Program",
+  "body": [],
+  "sourceType": "module",
+  "range": [
+    255,
+    255
+  ],
+  "loc": {
+    "start": {
+      "line": 8,
+      "column": 0
+    },
+    "end": {
+      "line": 8,
+      "column": 0
+    }
+  },
+  "leadingComments": [
+    {
+      "type": "Block",
+      "value": "*\n * @external {Webcom/api.Query~queryCallback} https://datasync.orange.com/doc/api.Query.html#~queryCallback\n * @access protected\n ",
+      "range": [
+        0,
+        136
+      ],
+      "loc": {
+        "start": {
+          "line": 1,
+          "column": 0
+        },
+        "end": {
+          "line": 4,
+          "column": 3
+        }
+      }
+    },
+    {
+      "type": "Block",
+      "value": "*\n * @external {Webcom/api.Query~cancelCallback} https://datasync.orange.com/doc/api.Query.html#~cancelCallback\n ",
+      "range": [
+        137,
+        254
+      ],
+      "loc": {
+        "start": {
+          "line": 5,
+          "column": 0
+        },
+        "end": {
+          "line": 7,
+          "column": 3
+        }
+      }
+    }
+  ],
+  "comments": [
+    {
+      "type": "Block",
+      "value": "*\n * @external {Webcom/api.Query~queryCallback} https://datasync.orange.com/doc/api.Query.html#~queryCallback\n * @access protected\n ",
+      "range": [
+        0,
+        136
+      ],
+      "loc": {
+        "start": {
+          "line": 1,
+          "column": 0
+        },
+        "end": {
+          "line": 4,
+          "column": 3
+        }
+      }
+    },
+    {
+      "type": "Block",
+      "value": "*\n * @external {Webcom/api.Query~cancelCallback} https://datasync.orange.com/doc/api.Query.html#~cancelCallback\n ",
+      "range": [
+        137,
+        254
+      ],
+      "loc": {
+        "start": {
+          "line": 5,
+          "column": 0
+        },
+        "end": {
+          "line": 7,
+          "column": 3
+        }
+      }
+    }
+  ]
+}

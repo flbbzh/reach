@@ -1,0 +1,59 @@
+{
+  "type": "Program",
+  "body": [],
+  "sourceType": "module",
+  "range": [
+    134,
+    134
+  ],
+  "loc": {
+    "start": {
+      "line": 3,
+      "column": 3
+    },
+    "end": {
+      "line": 3,
+      "column": 3
+    }
+  },
+  "leadingComments": [
+    {
+      "type": "Block",
+      "value": "*\n * @external {MediaStreamConstraints} https://w3c.github.io/mediacapture-main/getusermedia.html#idl-def-MediaStreamConstraints\n ",
+      "range": [
+        0,
+        134
+      ],
+      "loc": {
+        "start": {
+          "line": 1,
+          "column": 0
+        },
+        "end": {
+          "line": 3,
+          "column": 3
+        }
+      }
+    }
+  ],
+  "comments": [
+    {
+      "type": "Block",
+      "value": "*\n * @external {MediaStreamConstraints} https://w3c.github.io/mediacapture-main/getusermedia.html#idl-def-MediaStreamConstraints\n ",
+      "range": [
+        0,
+        134
+      ],
+      "loc": {
+        "start": {
+          "line": 1,
+          "column": 0
+        },
+        "end": {
+          "line": 3,
+          "column": 3
+        }
+      }
+    }
+  ]
+}
